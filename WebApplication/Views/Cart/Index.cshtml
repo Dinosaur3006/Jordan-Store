@@ -1,0 +1,151 @@
+﻿@using WebApplication.Models;
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Start Banner Area -->
+<section class="banner-area organic-breadcrumb">
+    <div class="container">
+        <div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
+            <div class="col-first">
+                <h1>Shopping Cart</h1>
+                <nav class="d-flex align-items-center">
+                    <a href="/">Home<span class="lnr lnr-arrow-right"></span></a>
+                    <a href="/Cart/Index">Cart</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Banner Area -->
+<!--================Cart Area =================-->
+
+<section class="cart_area">
+    <div class="container">
+        <div class="cart_inner">
+            <div class="table-responsive">
+                @{
+                    if (Session["Cart"] != null)
+                    {
+                        using (Html.BeginForm("UpdateCart", "Cart", FormMethod.Post))
+                        {
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Product</th>
+                                        <th scope="col">Price</th>
+                                        <th scope="col">Discount</th>
+                                        <th scope="col">Quantity</th>
+                                        <th scope="col">Amount</th>
+                                        <th scope="col"></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+                                    @foreach (var cart in (List<CartItem>)Session["Cart"])
+                                    {
+                                    <tr>
+                                        <td>
+                                            <div class="media">
+                                                <div class="d-flex">
+                                                    <img width="150" src="~/Images/@cart.Product.Product_Image" alt="">
+                                                </div>
+                                                <div class="media-body">
+                                                    <p>@cart.Product.Product_Name</p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td><h5>@Html.FormatValue(cart.Product.Product_Price, "{0:c}")</h5></td>
+                                        <td>@cart.Product.Product_Discount %</td>
+                                        <td><div class="product_count"><input type="number" max="10" min="1" name="quantity" value="@cart.Quantity" /></div></td>
+                                        @{ var sum = cart.Product.Product_Price - ((cart.Product.Product_Price * cart.Product.Product_Discount) / 100);}
+                                        <td id="@cart.Product.Product_ID"><h5>@Html.FormatValue(sum * cart.Quantity, "{0:c}")</h5></td>
+                                        <td>
+                                            <div class="checkout_btn_inner d-flex align-items-center">
+                                                <a class="gray_btn" style=" padding:0px 25px; color: #fff; background-color: #dc3545; border-color: #dc3545;" href="/Cart/Delete/@cart.Product.Product_ID">X</a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    }
+
+                                    <form method="post">
+                                        <tr class="bottom_button">
+                                            <td>
+                                            </td>
+                                            <td>
+                                            </td>
+                                            <td>
+                                            </td>
+                                            <td>
+                                            </td>
+                                            <td></td>
+                                            <td>
+
+                                                <div style="margin-left: -48px;" class="cupon_text align-items-center">
+                                                    <input style="color:#fff" value="Update Cart" type="submit" class="primary-btn" />
+                                                </div>
+                                            </td>
+                                        </tr>
+
+                                    </form>
+                                    <tr>
+                                        <td>
+                                        </td>
+                                        <td></td>
+                                        <td>
+                                        </td>
+                                        <td>
+                                        </td>
+                                        <td>
+                                            <h5>Subtotal</h5>
+                                        </td>
+                                        <td>
+                                            @{
+                                                List<CartItem> temp = (List<CartItem>)Session["Cart"];
+                                                var total = String.Format("{0:N0}", temp.Sum(x => x.Quantity * (x.Product.Product_Price - ((x.Product.Product_Price * x.Product.Product_Discount) / 100))));
+
+                                            }
+                                            <h5>$ @total </h5>
+                                        </td>
+                                    </tr>
+                                    <tr class="out_button_area">
+                                        <td>
+                                        </td>
+                                        <td></td>
+                                        <td>
+                                        </td>
+                                        <td>
+                                        </td>
+                                        <td>
+                                            <div class="checkout_btn_inner d-flex align-items-center">
+                                                <a class="gray_btn" style=" color: #fff; background-color: #dc3545; border-color: #dc3545;" href="/Cart/Clear">Clear Cart</a>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="checkout_btn_inner d-flex align-items-center" style=" margin-left: -290px;">
+                                                <a class="gray_btn" style="color: #fff; background-color: #007bff; border-color: #007bff;" href="/Product/Category?CategoryId=2">Shopping More</a>
+                                                <a class="primary-btn" href="/Cart/CheckOut">Proceed to checkout</a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                        }
+                    }
+                    else
+                    {
+                        <span>Empty cart, please shopping more</span>
+                        
+                        <div class="checkout_btn_inner d-flex align-items-center" style="margin-top:20px">
+                            <a class="gray_btn" style="color: #fff; background-color: #dc3545; border-color: #dc3545;" href="/Product/Category?CategoryId=2">  Shopping More</a>
+                        </div>
+                    }
+                }
+            </div>
+
+        </div>
+    </div>
+</section>
+<!--================End Cart Area =================-->

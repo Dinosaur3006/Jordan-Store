@@ -1,0 +1,66 @@
+﻿@model IEnumerable<WebApplication.Models.Product>
+@{
+    ViewBag.Title = "Checkout";
+    Layout = "~/Views/Shared/_BodyLayout.cshtml";
+}
+@if (Model.Any())
+{
+    <div> <h3 class="wthree_text_info">CHECK<span> OUT</span></h3></div>
+
+    <table class="table table-hover">
+        <tr style="font-size:20px">
+            <th>ID</th>
+            <th>Image</th>
+            <th>Product Name</th>
+            <th>Unit Price</th>
+            <th>Discount</th>
+            <th>Quantity</th>
+            <th>Amount</th>
+
+        </tr>
+        @foreach (var p in Model)
+        {
+
+            <tr style="font-size:17px">
+                <td>@p.Product_ID</td>
+                <td><img style="width:150px" src="~/Images/@p.Product_Image"></td>
+                <td>@p.Product_Name</td>
+                <td>@Html.FormatValue(p.Product_Price, "{0:c}")</td>
+                <td>@Html.FormatValue(p.Product_Discount, "{0:p}")</td>
+                <td><input readonly="readonly" class="quantity" value="@p.Quantity" data-id="@p.Product_ID" size="3"></td>
+                <td id="@p.Product_ID">@Html.FormatValue(p.Product_Price * p.Quantity * (1 - p.Product_Discount), "{0:c}")</td>
+
+            </tr>
+        }
+        <tr style="font-size:20px">
+            <th colspan="5" style="text-align:right">Total:</th>
+            <th>$ @WebApplication.Models.ShoppingCart.Cart.Total</th>
+            <th></th>
+        </tr>
+    </table>
+    <form action="/Cart/Payment" method="post">
+
+
+        <a href="/Cart/Index" class="btn btn-default">
+
+            Back to Cart
+        </a>
+        <button type="submit" class="btn btn-default">Check Out</button>
+
+
+
+    </form>
+}
+else
+{
+    <div>
+        <span class="alert alert-danger">Empty cart, please shopping more</span>
+    </div>
+    <br />
+    <div>
+        <a href="/Home/Index" class="btn btn-default">
+            <span class="glyphicon glyphicon-th-list"></span>
+            Shopping More
+        </a>
+    </div>
+}

@@ -1,0 +1,83 @@
+﻿@model WebApplication.Models.Customer
+
+@{
+    ViewBag.Title = "Info";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!-- Start Banner Area -->
+<section class="banner-area organic-breadcrumb">
+    <div class="container">
+        <div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
+            <div class="col-first">
+                <h1>Your Information</h1>
+                <nav class="d-flex align-items-center">
+                    <a href="/">Home<span class="lnr lnr-arrow-right"></span></a>
+                    <a href="">Your Information</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Banner Area -->
+<section>
+    <div class="container">
+        <div style="margin-left:30px;">
+
+            @if (TempData["changepass"] != null)
+            {
+                <div class="alert alert-danger">@TempData["changepass"]</div>
+            }
+            @if (TempData["oldpass"] != null)
+            {
+                <div class="alert alert-danger">@TempData["oldpass"]</div>
+            }
+            <hr />
+            <dl class="dl-horizontal">
+                <dt>
+                    @Html.DisplayNameFor(model => model.Username)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Username)
+                </dd>
+                <dt>
+                    @Html.LabelFor(model => model.Customer_Name, "Your Name")
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Customer_Name)
+                </dd>
+                <dt>
+                    @Html.LabelFor(model => model.Customer_Phone, "Phone")
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Customer_Phone)
+                </dd>
+                <dt>
+                    @Html.LabelFor(model => model.Customer_Address, "Address")
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Customer_Address)
+                </dd>
+                <dt>
+                    @Html.LabelFor(model => model.Email, "Email")
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Email)
+                </dd>
+            </dl>
+            <p>
+                <a class="gray_btn" style="color: #fff; background-color: #007bff; border-color: #007bff;" href="/User/EditProfile/@Model.Customer_ID">Edit Profile</a>
+                &nbsp;&nbsp;
+                <a class="gray_btn" style="color: #fff; background-color: #dc3545; border-color: #dc3545;" href="/User/ChangePassword/@Model.Customer_ID">
+                    Change Password
+                </a>
+            </p>
+        </div>
+        
+    </div>
+</section>
+

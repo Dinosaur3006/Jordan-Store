@@ -1,0 +1,70 @@
+﻿@model IEnumerable<WebApplication.Models.Product>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_SearchLayout.cshtml";
+}
+@if (Model.Any())
+{
+    <div> <h3 class="wthree_text_info">CA<span>RT</span></h3></div>
+
+    <table class="table table-hover">
+        <tr style="font-size:20px">
+            <th>ID</th>
+            <th>Image</th>
+            <th>Product Name</th>
+            <th>Unit Price</th>
+            <th>Discount</th>
+            <th>Quantity</th>
+            <th>Amount</th>
+
+        </tr>
+        @foreach (var p in Model)
+        {
+            <tr>
+                <td>@p.Product_ID</td>
+                <td><img style="width:150px" src="~/Images/@p.Product_Image"></td>
+                <td>@p.Product_Name</td>
+                <td>@Html.FormatValue(p.Product_Price, "{0:c}")</td>
+                <td>@Html.FormatValue(p.Product_Discount, "{0:p}")</td>
+                <td><input class="quantity" value="@p.Quantity" data-id="@p.Product_ID" size="3"></td>
+                <td id="@p.Product_ID">@Html.FormatValue(p.Product_Price * p.Quantity * (1 - p.Product_Discount), "{0:c}")</td>
+                <td>
+                    <img class="remove-from-cart" data-id="@p.Product_ID" style="width:30px" src="~/Images/close_red.png" />
+                </td>
+            </tr>
+        }
+        @*<tr>
+                <th colspan="5" style="text-align:right">Total:</th>
+                <th>@WebApplication.Models.ShoppingCart.Cart.Total</th>
+                <th></th>
+            </tr>*@
+    </table>
+    <form action="/Cart/Clear" method="post">
+        <button class="btn btn-default">
+            <span class="glyphicon glyphicon-th-list"></span>
+            Clear Cart
+        </button>
+        <a href="/Home/Index" class="btn btn-default">
+            <span class="glyphicon glyphicon-th-list"></span>
+            Shopping More
+        </a>
+
+        <a href="/Cart/Checkout" class="btn btn-default">
+            <span class="glyphicon glyphicon-th-list"></span>
+            Checkout
+        </a>
+
+    </form>
+}
+else
+{<div>
+    <span class="alert alert-danger">Empty cart, please shopping more</span>
+    </div>
+    <br />
+    <div>
+        <a href="/Home/Index" class="btn btn-default">
+            <span class="glyphicon glyphicon-th-list"></span>
+            Shopping More
+        </a>
+    </div>
+    }

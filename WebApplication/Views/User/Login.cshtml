@@ -1,0 +1,100 @@
+﻿@model WebApplication.Models.LoginM
+
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{ var session = (WebApplication.Common.UserLogin)Session[WebApplication.Common.CommonConstants.USER_SESSION];
+}
+@using (Html.BeginForm())
+{
+    <!-- Start Banner Area -->
+    <section class="banner-area organic-breadcrumb">
+        <div class="container">
+            <div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
+                <div class="col-first">
+                    <h1>Login</h1>
+                    <nav class="d-flex align-items-center">
+                        <a href="/">Home<span class="lnr lnr-arrow-right"></span></a>
+                        <a href="/User/Login">Login</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Banner Area -->
+
+    <!--================Login Box Area =================-->
+    <section class="login_box_area section_gap">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="login_box_img">
+                        <img class="img-fluid" src="~/Theme/img/login.jpg" alt="">
+                        <div class="hover">
+                            <p>Join with us and purchase your item</p>
+                            <a class="primary-btn" href="/User/Register">Create an Account</a>
+                        </div>
+                    </div>
+                </div>
+                @if (session == null)
+                {
+                    <div class="col-lg-6">
+                        <div class="login_form_inner">
+                            <h3>Log in to enter</h3>
+                            @if (ViewBag.Error != null)
+                            {
+                                <div style="width: 80%; margin:0 auto; display:block;" class="alert alert-danger">@ViewBag.Error</div>
+                            }
+                            @if (Session["Editpass"] != null)
+                            {
+                                <div style="width: 80%; margin:0 auto; display:block;" class="alert alert-success">@Session["Editpass"]</div>
+                            }
+                            @if (TempData["EditCustomer"] != null)
+                            {
+                                <div  style="width: 80%; margin:0 auto; display:block;" class="alert alert-success">@TempData["EditCustomer"]</div>
+                            }
+                            @if (TempData["ChangePassword"] != null)
+                            {
+                                <div style="width: 80%; margin:0 auto; display:block;" class="alert alert-success">@TempData["ChangePassword"]</div>
+                            }
+                        <form class="row login_form">
+
+                            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.Username, htmlAttributes: new { @class = "control-label col-md-2" })
+                                @Html.TextBoxFor(model => model.Username, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.Username, "", new { @class = "text-danger" })
+                            </div>
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.Password, htmlAttributes: new { @class = "control-label col-md-2" })
+                                @Html.PasswordFor(model => model.Password, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+                            </div>
+                            <div class="form-group">
+                                <input style="width:50%; margin-top:20px;" type="submit" value="Login" class="primary-btn" /> 
+                            </div>
+
+                            <div class="form-group">
+                                    <a href="/User/LoginFacebook" class="fb btn btn-primary">
+                                        <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+                                    </a>
+                            </div>
+                        </form>
+                        </div>
+                    </div>
+                }
+                else
+                {
+                    <a href="/Home/Index" class="btn btn-default">Back to Homepage</a>
+                }
+            </div>
+        </div>
+    </section>
+    <!--================End Login Box Area =================-->
+
+
+}
+
+
+

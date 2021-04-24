@@ -1,0 +1,42 @@
+﻿
+@{
+    /**/
+
+    ViewBag.Title = "Success";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Start Banner Area -->
+<section class="banner-area organic-breadcrumb">
+    <div class="container">
+        <div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
+            <div class="col-first">
+                <h1>Checkout</h1>
+                <nav class="d-flex align-items-center">
+                    <a href="/">Home<span class="lnr lnr-arrow-right"></span></a>
+                    <a href="/Cart/Index">Checkout</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Banner Area -->
+<section class="cart_area">
+    <div class="container">
+        <div class="cart_inner">
+            <div class="table-responsive">
+                <p style="color:#28a745; font-size:16px;">
+                    The payment was successful.
+
+                </p>
+                <div class="checkout_btn_inner d-flex align-items-center">
+                    <a class="gray_btn" style="color: #fff; background-color: #007bff; border-color: #007bff;" href="/User/History">Your order</a>
+                    &nbsp;&nbsp;
+                    <a class="gray_btn" style="color: #fff; background-color: #dc3545; border-color: #dc3545;" href="/">
+                        Homepage
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

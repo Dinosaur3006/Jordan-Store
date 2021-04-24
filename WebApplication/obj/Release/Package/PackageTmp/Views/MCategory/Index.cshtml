@@ -1,0 +1,45 @@
+﻿@model IEnumerable<WebApplication.Models.Category>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_MyLayout.cshtml";
+}
+<h2>Manage Category</h2>
+<hr />
+<p>
+    <a href="/MCategory/Create" class="btn btn-outline btn-primary" style="font-size:20px;">Create</a>
+</p>
+
+<table class="table" id="dataTable" cellspacing="0">
+    <tr>
+        <th>
+            Category Name
+        </th>
+        
+        <th></th>
+
+    </tr>
+
+
+    @foreach (var item in Model)
+    {
+    <tr class="odd gradeX">
+        <td>
+            @Html.DisplayFor(modelItem => item.Category_Name)
+        </td>
+
+        <td>
+            <a href="/MCategory/Edit/@item.Category_ID" class="btn btn-info">
+                Edit
+            </a>
+            <a href="/MCategory/Details/@item.Category_ID" class="btn btn-info">
+                Detail
+            </a>
+            <a href="/MCategory/Delete/@item.Category_ID" class="btn btn-info">
+                Delete
+            </a>
+        </td>
+    </tr>
+    }
+
+</table>

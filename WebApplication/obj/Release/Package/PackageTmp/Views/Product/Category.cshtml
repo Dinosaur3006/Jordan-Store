@@ -1,0 +1,51 @@
+﻿@*@model IEnumerable<WebApplication.Models.Product>*@
+@model PagedList.IPagedList<WebApplication.Models.Product>
+@using PagedList.Mvc;
+@{
+    /**/
+
+    ViewBag.Title = "Category";
+    Layout = "~/Views/Shared/_Product.cshtml";
+}
+<div class="products">
+    @foreach (var Model in Model)
+    {
+        <div class="col-md-3 product-men giam">
+            <div class="men-pro-item simpleCart_shelfItem">
+                <div class="men-thumb-item">
+                    <img src="~/Images/@Model.Product_Image" alt="" class="pro-image-front">
+                    <img src="~/Images/@Model.Product_Image" alt="" class="pro-image-back">
+                    <div class="men-cart-pro">
+                        <div class="inner-men-cart-pro">
+                            <a href="/Product/Detail/@Model.Product_ID" class="link-product-add-cart">Quick View</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-info-product">
+                    <h4><a href="">@Model.Product_Name</a></h4>
+                    <div class="info-product-price">
+                        <span class="item_price price">$@Model.Product_Discount</span>
+                        @if (Model.Product_Discount == Model.Product_Price)
+        {
+        }
+        else
+        {
+                <del>$@Model.Product_Price</del>}
+                    </div>
+                    <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
+
+                        <form action="" method="post">
+                            <fieldset>
+
+                                <input type="submit" name="submit" value="Add to cart" class="button add-to-cart" data-id="@Model.Product_ID">
+
+                            </fieldset>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+        <div class="clearfix"> </div>
+</div>

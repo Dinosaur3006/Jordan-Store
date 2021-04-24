@@ -1,0 +1,157 @@
+﻿@model IEnumerable<WebApplication.Models.Product>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    <!-- Start datatable css -->
+}
+
+@if (TempData["DeleteProduct"] != null)
+{
+
+<div class="form-group">
+    <br />
+    <div class="col-md-3">
+        <div class="alert alert-success" id="success-alert">
+            <button type="button" class="close" data-dismiss="alert">x</button>
+            <strong> @TempData["DeleteProduct"] </strong>
+
+        </div>
+
+    </div>
+</div>
+}
+@if (TempData["EditProduct"] != null)
+{
+
+<div class="form-group">
+    <br />
+    <div class="col-md-3">
+        <div class="alert alert-success" id="success-alert">
+            <button type="button" class="close" data-dismiss="alert">x</button>
+            <strong> @TempData["EditProduct"] </strong>
+
+        </div>
+
+    </div>
+</div>
+}
+@if (TempData["CreateProduct"] != null)
+{
+
+<div class="form-group">
+    <br />
+    <div class="col-md-3">
+        <div class="alert alert-success" id="success-alert">
+            <button type="button" class="close" data-dismiss="alert">x</button>
+            <strong>@TempData["CreateProduct"]</strong>
+        </div>
+    </div>
+
+</div>
+
+}
+@if (TempData["ErrorImage"] != null)
+{
+<div class="form-group">
+    <br />
+    <div class="col-md-4">
+        <div class="alert alert-danger" id="success-alert">
+            <button type="button" class="close" data-dismiss="alert">x</button>
+            <strong>@TempData["ErrorImage"]</strong>
+        </div>
+    </div>
+</div>
+}
+@if (TempData["ErrorDeleteProduct"] != null)
+{
+<div class="form-group">
+    <br />
+    <div class="col-md-4">
+        <div class="alert alert-danger" id="success-alert">
+            <button type="button" class="close" data-dismiss="alert">x</button>
+            <strong>@TempData["ErrorDeleteProduct"]</strong>
+        </div>
+    </div>
+</div>
+}
+<!-- page title area start -->
+<div class="page-title-area">
+    <div class="row align-items-center">
+        <div class="col-sm-6">
+            <div class="breadcrumbs-area clearfix">
+                <h4 class="page-title pull-left">Product Management</h4>
+                <ul class="breadcrumbs pull-left">
+                    <li><a href="/HomeAdmin">Home</a></li>
+                    <li><span>Product Management</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-sm-6 clearfix">
+            <div class="user-profile pull-right">
+                <img class="avatar user-thumb" src="~/Theme/assets/images/author/avatar.png" alt="avatar">
+                <h4 class="user-name dropdown-toggle" data-toggle="dropdown">Welcome: @Session["Admin"]<i class="fa fa-angle-down"></i></h4>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="@Url.Action("Logout","HomeAdmin")">Log Out</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- page title area end -->
+<div class="main-content-inner">
+    <div class="row">
+        <!-- Dark table start -->
+        <div class="col-12 mt-5">
+            <div class="card">
+
+                <div class="card-body">
+
+                    <a href="/MProduct/Create" class="btn btn-outline btn-primary " style="font-size:20px; width:10%; margin-bottom:20px">Create</a>
+                    <h4 class="header-title">Product Table</h4>
+                    <div class="data-tables datatable-dark">
+                        <table id="dataTable3" class="text-center">
+                            <thead class="text-capitalize">
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Image</th>
+                                    <th>Product Name</th>
+                                    <th>Price</th>
+                                    <th>Quantity</th>
+                                    <th>Function</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <th scope="row"> @Html.DisplayFor(modelItem => item.Product_ID)</th>
+                                        <td><img src="~/Images/@Html.DisplayFor(modelItem => item.Product_Image)" width="100" /></td>
+                                        <td> @Html.DisplayFor(modelItem => item.Product_Name)</td>
+                                        <td> @Html.DisplayFor(modelItem => item.Product_Price)</td>
+                                        <td> @Html.DisplayFor(modelItem => item.Quantity)</td>
+                                        <td>
+                                            <ul class="d-flex justify-content-center">
+                                                <li class="mr-3"><a href="/MProduct/Edit/@item.Product_ID" class="text-secondary"><i class="fa fa-edit"></i></a></li>
+                                                <li class="mr-3"><a href="/MProduct/Details/@item.Product_ID" class="text-secondary"><i class="fa fa-eye"></i></a></li>
+                                                <li><a href="/MProduct/Delete/@item.Product_ID" class="text-danger"><i class="ti-trash"></i></a></li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Dark table end -->
+    </div>
+</div>
+<script>
+    window.setTimeout(function () {
+        $(".alert").fadeTo(2500, 0).slideUp(500, function () {
+            $(this).hide();
+        });
+    }, 1000);
+</script>

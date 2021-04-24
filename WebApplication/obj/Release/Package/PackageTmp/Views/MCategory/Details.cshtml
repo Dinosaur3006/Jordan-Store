@@ -1,0 +1,28 @@
+﻿@model WebApplication.Models.Category
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_MyLayout.cshtml";
+}
+
+<h2>Category Details</h2>
+
+<div>
+
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.LabelFor(model => model.Category_Name, "Category Name"): &nbsp;<span style="font-weight:normal">@Html.DisplayFor(model => model.Category_Name)</span>
+        </dt>
+
+    </dl>
+</div>
+<p>
+    <a href="/MCategory/Edit/@Model.Category_ID" class="btn btn-info">
+        Edit
+    </a>
+    &nbsp;
+    <a href="/MCategory" class="btn btn-info">
+        Back to List
+    </a>
+</p>

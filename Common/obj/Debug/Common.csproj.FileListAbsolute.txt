@@ -1,0 +1,23 @@
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\Common\bin\Debug\Common.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\Common\bin\Debug\Common.pdb
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\Common\obj\Debug\Common.csprojAssemblyReference.cache
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\Common\obj\Debug\Common.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\Common\obj\Debug\Common.pdb
+F:\FPT University\System\WebApplication\Common\bin\Debug\Common.dll
+F:\FPT University\System\WebApplication\Common\bin\Debug\Common.pdb
+F:\FPT University\System\WebApplication\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+F:\FPT University\System\WebApplication\Common\obj\Debug\Common.dll
+F:\FPT University\System\WebApplication\Common\obj\Debug\Common.pdb
+C:\Users\Admin\Downloads\Compressed\WebApplication\Common\bin\Debug\Common.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\Common\bin\Debug\Common.pdb
+C:\Users\Admin\Downloads\Compressed\WebApplication\Common\obj\Debug\Common.csprojAssemblyReference.cache
+C:\Users\Admin\Downloads\Compressed\WebApplication\Common\obj\Debug\Common.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\Common\obj\Debug\Common.pdb
+C:\Users\Admin\Downloads\Compressed\WebApplication\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\Common\bin\Debug\Common.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\Common\bin\Debug\Common.pdb
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\Common\obj\Debug\Common.csprojAssemblyReference.cache
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\Common\obj\Debug\Common.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\Common\obj\Debug\Common.pdb

@@ -1,0 +1,67 @@
+﻿@model WebApplication.Models.Administrator
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_AdminLoginLayout.cshtml";
+}
+
+<div id="preloader">
+    <div class="loader"></div>
+</div>
+<!-- preloader area end -->
+<!-- login area start -->
+<div class="login-area">
+    
+    <div class="container">
+        <div class="login-box ptb--100">
+            @using (Html.BeginForm("Login", "HomeAdmin", FormMethod.Post))
+            {
+
+                <div class="wrap-login100 p-t-30 p-b-50">
+                    <div class="login-form-head">
+                        <h4>Login In</h4>
+                    </div>
+                    @if (ViewBag.Error != null)
+                    {
+                        <div class="alert alert-danger">@ViewBag.Error</div>
+                    }
+
+                    @Html.AntiForgeryToken()
+                    @Html.ValidationSummary(true)
+                    <div class="login-form-body">
+                        <form class="login100-form validate-form p-b-33 p-t-5">
+                            <div class="form-gp wrap-input100 validate-input" data-validate="Enter username">
+                                <label>User name</label>
+                                <input class="input100" type="text" name="username">
+                                <i class="ti-user"></i>
+                            </div>
+
+                            <div class="form-gp wrap-input100 validate-input" data-validate="Enter password">
+                                <label>Password</label>
+                                <input class="input100" type="password" name="password">
+                                <i class="ti-lock"></i>
+                            </div>
+
+                            <div class="container-login100-form-btn m-t-32 submit-btn-area">
+                                <button class="login100-form-btn" type="submit" value="Login">
+                                    Login
+                                    <i class="ti-arrow-right"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+<!-- login area end -->
+
+<div class="limiter">
+    <div class="container-login100" style="background-image: url('../../Images/bannernew16.jpg');">
+        @using (Html.BeginForm("Login", "HomeAdmin", FormMethod.Post))
+        {
+
+
+        }
+    </div>
+</div>

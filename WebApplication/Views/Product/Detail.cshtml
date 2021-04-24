@@ -1,0 +1,287 @@
+﻿@model WebApplication.Models.Product
+@{
+    ViewBag.Title = "Detail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="~/Styles/js/bootstrap-rating-input.min.js"></script>
+
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.3&appId=764052217316013&autoLogAppEvents=1"></script>
+<!-- Start Banner Area -->
+<section class="banner-area organic-breadcrumb">
+    <div class="container">
+        <div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
+            <div class="col-first">
+                <h1>@Model.Product_Name</h1>
+                <nav class="d-flex align-items-center">
+                    <a href="/">Home<span class="lnr lnr-arrow-right"></span></a>
+                    <a href="/Product/Category?CategoryId=2">Collection<span class="lnr lnr-arrow-right"></span></a>
+                    <a href="#">@Model.Product_Name</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Banner Area -->
+<!--================Single Product Area =================-->
+<div class="product_image_area">
+    <div class="container">
+        <div class="row s_product_inner">
+            <div class="col-lg-6">
+                <div class="s_Product_carousel">
+                    <div class="single-prd-item">
+                        <img class="img-fluid" src="~/Images/@Model.Product_Image" alt="">
+                    </div>
+                    <div class="single-prd-item">
+                        <img class="img-fluid" src="~/Images/@Model.Product_Image" alt="">
+                    </div>
+                    <div class="single-prd-item">
+                        <img class="img-fluid" src="~/Images/@Model.Product_Image" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 offset-lg-1">
+                <div class="s_product_text">
+                    <h3>@Model.Product_Name</h3>
+
+                    @if (Model.Votes.Count > 0)
+                    {
+                        var check1 = Model.Votes.ToList();
+                        var get = check1.FirstOrDefault();
+                        var total2 = check1.Sum(x => x.RateStars) / Model.Votes.Count;
+
+
+                        if (total2.ToString() == "0")
+                        {
+                            <span> <img src="~/Images/rating/emptystars.png" width="30" /> <img src="~/Images/rating/emptystars.png" width="30" /> <img src="~/Images/rating/emptystars.png" width="30" /> <img src="~/Images/rating/emptystars.png" width="30" /> <img src="~/Images/rating/emptystars.png" width="30" /></span>
+                        }
+                        if (total2.ToString() == "1")
+                        {
+                            <span> <img src="~/Images/rating/fill.png" width="30" /> <img src="~/Images/rating/emptystars.png" width="30" /> <img src="~/Images/rating/emptystars.png" width="30" /> <img src="~/Images/rating/emptystars.png" width="30" /> <img src="~/Images/rating/emptystars.png" width="30" /></span>
+                        }
+                        if (total2.ToString() == "2")
+                        {
+                            <span> <img src="~/Images/rating/fill.png" width="30" /> <img src="~/Images/rating/fill.png" width="30" /> <img src="~/Images/rating/emptystars.png" width="30" /> <img src="~/Images/rating/emptystars.png" width="30" /> <img src="~/Images/rating/emptystars.png" width="30" /></span>
+                        }
+                        if (total2.ToString() == "3")
+                        {
+                            <span><img src="~/Images/rating/fill.png" width="30" /> <img src="~/Images/rating/fill.png" width="30" /> <img src="~/Images/rating/fill.png" width="30" /> <img src="~/Images/rating/emptystars.png" width="30" /> <img src="~/Images/rating/emptystars.png" width="30" /></span>
+                        }
+                        if (total2.ToString() == "4")
+                        {
+                            <span> <img src="~/Images/rating/fill.png" width="30" /> <img src="~/Images/rating/fill.png" width="30" /> <img src="~/Images/rating/fill.png" width="30" /> <img src="~/Images/rating/fill.png" width="30" /> <img src="~/Images/rating/emptystars.png" width="30" /></span>
+                        }
+                        if (total2.ToString() == "5")
+                        {
+                            <span><img src="~/Images/rating/fill.png" width="30" /> <img src="~/Images/rating/fill.png" width="30" /> <img src="~/Images/rating/fill.png" width="30" /> <img src="~/Images/rating/fill.png" width="30" /> <img src="~/Images/rating/fill.png" width="30" /></span>
+                        }
+                    }
+                    else
+                    {
+                        var check1 = Model.Votes.ToList();
+
+                        var total2 = check1.Sum(x => x.RateStars);
+                        if (total2.ToString() == "0")
+                        {
+                            <span> <img src="~/Images/rating/emptystars.png" width="30" /> <img src="~/Images/rating/emptystars.png" width="30" /> <img src="~/Images/rating/emptystars.png" width="30" /> <img src="~/Images/rating/emptystars.png" width="30" /> <img src="~/Images/rating/emptystars.png" width="30" /></span>
+                        }
+                    }
+                    <br /><br />
+                    @{var total = Model.Product_Price - ((Model.Product_Price * Model.Product_Discount) / 100); }
+
+                    <span class="price-custom">$@total</span>
+                    @if (Model.Product_Discount.ToString() == "0")
+                    {
+                    }
+                    else
+                    {
+                        <del>&nbsp;$@Model.Product_Price</del>}
+                    <ul class="list">
+                        @if (Model.Quantity.ToString() == "0")
+                        {
+                            <li><span>Quantity</span> : Out of stock</li>
+                        }
+                        else
+                        {
+                            <li><span>Quantity</span> : @Model.Quantity </li>
+                        }
+
+                    </ul>
+
+                    <p>
+                        DANS LE CADRE DE L’ARRIVÉE DU PROGRAMME JORDAN WINGS EN EUROPE, NOUS AVONS ÉCHANGÉ AVEC LES FONDATEURS DES TROIS PREMIÈRES ORGANISATIONS PARTENAIRES POUR MIEUX COMPRENDRE COMMENT ILS PROCÈDENT POUR AIDER LES JEUNES PARISIENS LES MOINS FAVORISÉS.
+
+                    </p>
+                    <div class="card_area d-flex align-items-center">
+                        <a class="primary-btn" href="/Cart/OrderProduct/@Model.Product_ID">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--================End Single Product Area =================-->
+<!--================Product Description Area =================-->
+<section class="product_description_area">
+    <div class="container">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Description</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact"
+                   aria-selected="false">Comments</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" id="review-tab" data-toggle="tab" href="#review" role="tab" aria-controls="review"
+                   aria-selected="false">Reviews</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <p>
+                    @Model.Product_Description
+                </p>
+            </div>
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                <div class="row">
+                    <div class="single_page_agile_its_w3ls col-log-12">
+                        <div class="fb-comments" data-href="http://localhost:58994/Product/Detail/@Model.Product_ID" data-width="" data-numposts="5"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade show active" id="review" role="tabpanel" aria-labelledby="review-tab">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="review_box">
+                            @{ var session = (WebApplication.Common.UserLogin)Session[WebApplication.Common.CommonConstants.USER_SESSION];}
+                            @if (session == null)
+                            {
+                                using (Html.BeginForm("Rating", "Product", FormMethod.Post))
+                                {
+
+                                    <li class="share" style="list-style-type:none">
+                                        <br />
+                                        <span> Your rate:</span> <input type="number" name="rating" id="rating-empty-clearable" class="rating" data-clearable />
+                                        <span><input type="submit" value="Rating" class="btn btn-group-sm btn-primary" /></span>
+                                    </li>
+                                }
+                            }
+                            else
+                            {
+                                using (Html.BeginForm("Rating", "Product", FormMethod.Post))
+                                {
+                                    if (ViewBag.Rated != null)
+                                    {
+                                        foreach (var check3 in Model.Votes)
+                                        {
+                                            if (check3.Customer_ID == session.Customer_ID)
+                                            {
+                                                ViewData["DataCusid"] = check3.Customer_ID;
+                                                TempData["Stars"] = check3.RateStars.ToString();
+                                                TempData["checkabc"] = session.Customer_ID = check3.Customer_ID;
+                                            }
+
+                                        }
+                                        if (TempData["checkabc"] == null)
+                                        {
+                                            <li class="share" style="list-style-type:none">
+                                                <br />
+                                                <span> Your rate:</span>
+                                                <input type="number" name="rating" id="rating-empty-clearable" class="rating" data-clearable />
+                                                <input type="submit" value="Rating" class="btn btn-group-sm btn-primary" />
+                                            </li>
+                                        }
+                                        else
+                                        {
+                                            <li class="share" style="list-style-type:none">
+                                                <br />
+                                                @if (TempData["Stars"].ToString() == "0")
+                                                {
+                                                    <span> Your rate: <img src="~/Images/rating/emptystars.png" width="20" /> <img src="~/Images/rating/emptystars.png" width="20" /> <img src="~/Images/rating/emptystars.png" width="20" /> <img src="~/Images/rating/emptystars.png" width="20" /> <img src="~/Images/rating/emptystars.png" width="20" /></span>
+                                                }
+                                                @if (TempData["Stars"].ToString() == "1")
+                                                {
+                                                    <span> Your rate: <img src="~/Images/rating/fill.png" width="20" /> <img src="~/Images/rating/emptystars.png" width="20" /> <img src="~/Images/rating/emptystars.png" width="20" /> <img src="~/Images/rating/emptystars.png" width="20" /> <img src="~/Images/rating/emptystars.png" width="20" /></span>
+                                                }
+                                                @if (TempData["Stars"].ToString() == "2")
+                                                {
+                                                    <span> Your rate: <img src="~/Images/rating/fill.png" width="20" /> <img src="~/Images/rating/fill.png" width="20" /> <img src="~/Images/rating/emptystars.png" width="20" /> <img src="~/Images/rating/emptystars.png" width="20" /> <img src="~/Images/rating/emptystars.png" width="20" /></span>
+                                                }
+                                                @if (TempData["Stars"].ToString() == "3")
+                                                {
+                                                    <span> Your rate: <img src="~/Images/rating/fill.png" width="20" /> <img src="~/Images/rating/fill.png" width="20" /> <img src="~/Images/rating/fill.png" width="20" /> <img src="~/Images/rating/emptystars.png" width="20" /> <img src="~/Images/rating/emptystars.png" width="20" /></span>
+                                                }
+                                                @if (TempData["Stars"].ToString() == "4")
+                                                {
+                                                    <span> Your rate: <img src="~/Images/rating/fill.png" width="20" /> <img src="~/Images/rating/fill.png" width="20" /> <img src="~/Images/rating/fill.png" width="20" /> <img src="~/Images/rating/fill.png" width="20" /> <img src="~/Images/rating/emptystars.png" width="20" /></span>
+                                                }
+                                                @if (TempData["Stars"].ToString() == "5")
+                                                {
+                                                    <span> Your rate: <img src="~/Images/rating/fill.png" width="20" /> <img src="~/Images/rating/fill.png" width="20" /> <img src="~/Images/rating/fill.png" width="20" /> <img src="~/Images/rating/fill.png" width="20" /> <img src="~/Images/rating/fill.png" width="20" /></span>
+                                                }
+                                            </li>
+                                        }
+                                    }
+                                    else
+                                    {
+                                        <li class="share" style="list-style-type:none">
+                                            <br />
+                                            <span> Your rate:</span>
+                                            <input type="number" name="rating" id="rating-empty-clearable" class="rating" required="" data-clearable />
+                                            <input type="submit" value="Rating" class="btn btn-group-sm btn-primary" />
+                                        </li>
+                                    }
+                                }
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--================End Product Description Area =================-->
+<!-- Start related-product Area -->
+<section class="related-product-area section_gap_bottom">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 text-center">
+                <div class="section-title">
+                    <h1>Related Product</h1>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="row">
+                    @foreach (var items in Model.Category.Products.Skip(1).Take(4))
+                    {<div class="col-lg-4 col-md-4 col-sm-6 mb-20">
+                            <div class="single-related-product d-flex">
+                                <a href="#"><img width="100" src="~/Images/@items.Product_Image" alt=""></a>
+                                <div class="desc">
+                                    <a href="/Product/Detail/@items.Product_ID" class="title">@items.Product_Name</a>
+                                    <div class="price">
+                                        @{var total1 = @items.Product_Price - ((@items.Product_Price * @items.Product_Discount) / 100); }
+                                        <h6>$@total1</h6>
+                                        @if (@items.Product_Discount == @items.Product_Price)
+                                        {
+                                        }
+                                        else
+                                        {
+                                            <h6 class="l-through">$@items.Product_Price</h6>}
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End related-product Area -->

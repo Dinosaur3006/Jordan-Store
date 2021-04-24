@@ -1,0 +1,164 @@
+﻿@model WebApplication.Models.Order
+@{
+    ViewBag.Title = "RejectedOrders";
+    Layout = "~/Views/Shared/_ManagerLayout.cshtml";
+}
+
+<!-- page title area start -->
+<div class="page-title-area">
+    <div class="row align-items-center">
+        <div class="col-sm-6">
+            <div class="breadcrumbs-area clearfix">
+                <h4 class="page-title pull-left">Reject Order</h4>
+                <ul class="breadcrumbs pull-left">
+                    <li><a href="/Manager">Home</a></li>
+                    <li><span>Reject Order</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-sm-6 clearfix">
+            <div class="user-profile pull-right">
+                <img class="avatar user-thumb" src="~/Theme/assets/images/author/avatar.png" alt="avatar">
+                <h4 class="user-name dropdown-toggle" data-toggle="dropdown">Welcome: @Session["Manager"]<i class="fa fa-angle-down"></i></h4>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="@Url.Action("Logout","HomeAdmin")">Log Out</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- page title area end -->
+<div class="main-content-inner">
+    <div class="row">
+        <!-- Dark table start -->
+        <div class="col-12 mt-5">
+            <div class="card">
+
+                <div class="card-body">
+
+                    <dl class="dl-horizontal">
+                        <dt>
+                            @Html.LabelFor(model => Model.Order_ID, "ID"): &nbsp;<span style="font-weight:normal">@Html.DisplayFor(model => Model.Order_ID)</span>
+
+                        </dt>
+                        <dt>
+
+                            @Html.LabelFor(model => Model.Customer.Customer_Name, "Customer"): &nbsp;<span style="font-weight:normal">@Html.DisplayFor(model => Model.Customer.Customer_Name) </span>
+                        </dt>
+                        <dt>
+
+                            @Html.LabelFor(model => Model.Order_Date, "Order Date"): &nbsp;<span style="font-weight:normal">@Html.DisplayFor(model => Model.Order_Date)</span>
+                        </dt>
+                        @if (Model.Status == "Processing")
+                        {
+                            <dt>
+                                @Html.LabelFor(model => Model.Status, "Status"): &nbsp;<span class="status-p bg-primary">@Html.DisplayFor(model => Model.Status)</span>
+                            </dt>
+                        }
+                        @if (Model.Status == "Pending")
+                        {
+                            <dt>
+                                @Html.LabelFor(model => Model.Status, "Status"): &nbsp;<span class="status-p bg-warning">@Html.DisplayFor(model => Model.Status)</span>
+                            </dt>
+                        }
+
+                    </dl>
+                    <div class="data-tables datatable-dark">
+                        <table id="dataTable3" class="text-center">
+                            <thead class="text-capitalize">
+                                <tr>
+                                    <th>Product ID</th>
+                                    <th>Image</th>
+
+                                    <th>
+                                        Product Name
+                                    </th>
+                                    <th>
+                                        Unit Price
+                                    </th>
+                                    <th>
+                                        Quantity
+                                    </th>
+                                    <th>
+                                        Amount
+
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model.OrderDetails)
+                                {
+
+                                    <tr>
+                                        @{var price = item.Product_Price - ((item.Product_Price * item.Product.Product_Discount) / 100);
+                                            var sum = price * item.Quantity;
+                                        }
+                                        <td>@item.Product.Product_ID</td>
+                                        <td>
+                                            <a href="~/Images/@item.Product.Product_Image" target="_blank"><img src="~/Images/@item.Product.Product_Image" width="150" /></a>
+                                        </td>
+                                        <td>
+                                            @item.Product.Product_Name
+                                        </td>
+                                        @if (item.Product_Discount.ToString() == "0")
+                                        {
+                                            <td>
+                                                $@price
+                                            </td>
+                                        }
+                                        else
+                                        {
+                                            <td>
+                                                $@price
+                                                <p><del style="color: gray;">$@item.Product.Product_Price</del></p>
+                                            </td>
+                                        }
+                                        <td>
+                                            @item.Quantity
+                                        </td>
+                                        <td>
+                                            $@sum
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                            <tfoot>
+
+                                <tr>
+                                    <th></th>
+                                    <th></th>
+                                    <th>Quantity Total:</th>
+                                    <th>@Model.OrderDetails.Sum(x => x.Quantity)
+                                    <th>Sum Money:</th>
+                                    <th>$ @Model.OrderDetails.Sum(x => (x.Product_Price - (x.Product_Price * x.Product_Discount) / 100) * x.Quantity)
+
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                    @using (Html.BeginForm("RejectedOrders", "Manager", FormMethod.Post))
+                    {
+                        @Html.HiddenFor(model => model.Order_ID)
+                        @Html.HiddenFor(model => model.Customer_ID)
+                        @Html.HiddenFor(model => model.Order_Date)
+                        @Html.HiddenFor(model => model.Status)
+                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Note, "Reason for rejected ", htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                @Html.EditorFor(model => model.Note, new { htmlAttributes = new { @class = "form-control col-md-8", @required = "required" } })
+                                @Html.ValidationMessageFor(model => model.Note, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <input type="submit" value="Send" class="btn btn-primary  mt-4 pr-4 pl-4" />
+                        <a href="/Manager/CheckOrders" class="btn btn-info  mt-4 pr-4 pl-4">
+                            Back to List
+                        </a>
+                    }
+                </div>
+            </div>
+        </div>
+        <!-- Dark table end -->
+    </div>
+</div>
+

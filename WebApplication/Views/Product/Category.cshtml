@@ -1,0 +1,51 @@
+﻿@*@model IEnumerable<WebApplication.Models.Product>*@
+@model PagedList.IPagedList<WebApplication.Models.Product>
+@using PagedList.Mvc;
+@{
+    /**/
+
+    ViewBag.Title = "Category";
+    Layout = "~/Views/Shared/_Product.cshtml";
+}
+
+    <div class="row">
+        @foreach (var Model in Model)
+        {
+            <div class="col-lg-4 col-md-6">
+                <div class="single-product">
+                    <img class="img-fluid" src="~/Images/@Model.Product_Image" alt="">
+                    <div class="product-details">
+                        <a href="/Product/Detail/@Model.Product_ID">
+                            <h6>
+                                @Model.Product_Name
+                            </h6>
+                        </a>
+                        @{var total = Model.Product_Price - ((Model.Product_Price * Model.Product_Discount) / 100); }
+                        <div class="price">
+                            <h6>$@total</h6>
+                            @if (Model.Product_Discount.ToString() == "0")
+                            {
+
+                            }
+                            else
+                            {
+
+                                <h6 class="l-through">$@Model.Product_Price</h6>}
+                        </div>
+                        <div class="prd-bottom">
+
+                            <a href="/Cart/OrderProduct/@Model.Product_ID" class="social-info" style="margin-right:20px;">
+                                <span class="ti-bag"></span>
+                                <p class="hover-text">add to cart</p>
+                            </a>
+                            <a href="/Product/Detail/@Model.Product_ID" class="social-info">
+                                <span class="lnr lnr-move"></span>
+                                <p class="hover-text">view detail</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+

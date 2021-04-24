@@ -1,0 +1,179 @@
+﻿@model WebApplication.Models.Product
+@{
+    ViewBag.Title = "Detail";
+    Layout = "~/Views/Shared/_Detail.cshtml";
+}
+<div class="col-md-4 single-right-left ">
+    <div class="grid images_3_of_2">
+        <div class="flexslider">
+
+                    <div class="thumb-image"> <img src="~/Images/@Model.Product_Image" data-imagezoom="true" class="img-responsive"> </div>
+               
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+<div class="col-md-8 single-right-left simpleCart_shelfItem">
+    <h3 style="color:red">@Model.Product_Name</h3>
+    <br />
+    <h5 class="share">ID : @Model.Product_ID </h5>
+    <br />
+    <span class="item_price" style="font-size:21px; font-weight:bold">Price: $@Model.Product_Discount</span>
+
+    @if (@Model.Product_Discount == Model.Product_Price)
+    {
+    }
+    else
+    {
+        <del style="font-size:19px">$@Model.Product_Price </del>}
+    @*<div class="rating1">
+            <span class="starRating">
+                <input id="rating5" type="radio" name="rating" value="5">
+                <label for="rating5">5</label>
+                <input id="rating4" type="radio" name="rating" value="4">
+                <label for="rating4">4</label>
+                <input id="rating3" type="radio" name="rating" value="3" checked="">
+                <label for="rating3">3</label>
+                <input id="rating2" type="radio" name="rating" value="2">
+                <label for="rating2">2</label>
+                <input id="rating1" type="radio" name="rating" value="1">
+                <label for="rating1">1</label>
+            </span>
+        </div>*@
+    @*<div class="description">
+            <h5>Check delivery, payment options and charges at your location</h5>
+            <form action="#" method="post">
+                <input type="text" value="Enter pincode" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter pincode';}" required="">
+                <input type="submit" value="Check">
+            </form>
+        </div>*@
+
+    <div>
+        &nbsp;
+    </div>
+    <div class="occasion-cart">
+        <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
+
+            <form action="" method="post">
+                <fieldset>
+
+                    <input type="submit" name="submit" value="Add to cart" class="button add-to-cart" data-id="@Model.Product_ID">
+
+                </fieldset>
+
+            </form>
+        </div>
+
+    </div>
+    <ul class="social-nav model-3d-0 footer-social w3_agile_social single_page_w3ls">
+        <li class="share">Share On : </li>
+        <li>
+            <a href="#" class="facebook">
+                <div class="front"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+                <div class="back"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+            </a>
+        </li>
+        <li>
+            <a href="#" class="twitter">
+                <div class="front"><i class="fa fa-google-plus" aria-hidden="true"></i></div>
+                <div class="back"><i class="fa fa-google-plus" aria-hidden="true"></i></div>
+            </a>
+        </li>
+    </ul>
+
+</div>
+
+<div class="clearfix"> </div>
+
+<div class="responsive_tabs_agileits">
+    <div id="horizontalTab">
+        <ul class="resp-tabs-list">
+            <li>Description</li>
+            <li>Reviews</li>
+
+        </ul>
+        <div class="resp-tabs-container">
+            <!--/tab_one-->
+            <div class="tab1">
+
+                <div class="single_page_agile_its_w3ls">
+                    @*<h6>Lorem ipsum dolor sit amet</h6>*@
+                   <p>@Model.Product_Description</p>
+                </div>
+            </div>
+            <!--//tab_one-->
+            <div class="tab2">
+
+                <div class="single_page_agile_its_w3ls">
+                    <div class="bootstrap-tab-text-grids">
+                        <div class="bootstrap-tab-text-grid">
+                            <div class="fb-comments" data-href="/Product/Detail/@Model.Product_ID" data-numposts="5"></div>
+                            <div class="clearfix"> </div>
+                        </div>
+                        <div class="add-review">
+                            <h4>add a review</h4>
+                            <form action="#" method="post">
+                                <input type="text" name="Name" required="Name">
+                                <input type="email" name="Email" required="Email">
+                                <textarea name="Message" required=""></textarea>
+                                <input type="submit" value="SEND">
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="w3_agile_latest_arrivals">
+    <h3 class="wthree_text_info">Featured <span>Arrivals</span></h3>
+    @foreach (var items in Model.Category.Products.Skip(1).Take(4))
+    {
+    <div class="col-md-3 product-men single">
+
+        <div class="men-pro-item simpleCart_shelfItem">
+            <div class="men-thumb-item">
+                <img src="~/Images/@items.Product_Image" alt="" class="pro-image-front">
+                <img src="~/Images/@items.Image_Detail1" alt="" class="pro-image-back">
+                <div class="men-cart-pro">
+                    <div class="inner-men-cart-pro">
+                        <a href="/Product/Detail/@items.Product_ID" class="link-product-add-cart">Quick View</a>
+                    </div>
+                </div>
+                @*<span class="product-new-top">New</span>*@
+
+            </div>
+            <div class="item-info-product ">
+                <h4><a href="/Product/Detail/@items.Product_ID">@items.Product_Name</a></h4>
+                <div class="info-product-price">
+                    @{ items.Product_Discount = items.Product_Price * (1 - items.Product_Discount); }
+                    <span class="item_price">$@items.Product_Discount</span>
+                    @if (@items.Product_Discount == @items.Product_Price)
+        {
+        }
+        else
+        {
+            <del>$@items.Product_Price</del>}
+                </div>
+                <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
+
+                    <form action="" method="post">
+                        <fieldset>
+
+                            <input type="submit" name="submit" value="Add to cart" class="button add-to-cart" data-id="@items.Product_ID">
+
+                        </fieldset>
+
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+}
+    <div class="clearfix"> </div>
+    <!--//slider_owl-->
+</div>

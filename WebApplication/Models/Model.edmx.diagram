@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="70bc4c95797547fcad0e4a5e5a16409c" Name="Diagram1">
+        <EntityTypeShape EntityType="JordanModel.Administrator" Width="1.5" PointX="5.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="JordanModel.Category" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="JordanModel.Customer" Width="1.5" PointX="0.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="JordanModel.OrderDetail" Width="1.5" PointX="5.25" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="JordanModel.Order" Width="1.5" PointX="3" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="JordanModel.Product" Width="1.5" PointX="3" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="JordanModel.Supply" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="JordanModel.Vote" Width="1.5" PointX="8.25" PointY="3.5" IsExpanded="true" />
+        <AssociationConnector Association="JordanModel.FK_Product_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="JordanModel.FK_Orders_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="JordanModel.FK_Vote_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="JordanModel.FK_OrderDetail_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="JordanModel.FK_OrderDetail_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="JordanModel.FK_Product_Supply" ManuallyRouted="false" />
+        <AssociationConnector Association="JordanModel.FK_Vote_Product" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

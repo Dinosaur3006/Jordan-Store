@@ -1,0 +1,6 @@
+﻿@model IEnumerable<WebApplication.Models.Category>
+@foreach (var c in Model)
+{
+
+<label for="item-0"> <a style="text-decoration: none; color:black" href="/Product/Category?CategoryId=@c.Category_ID">@c.Category_Name</a></label>
+}

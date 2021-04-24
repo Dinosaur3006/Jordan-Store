@@ -1,0 +1,23 @@
+[Header]
+2019-05-03 17:13:24,457 [8] DEBUG PayPal.Api.PayPalResource [(null)] - Content-Type:application/x-www-form-urlencoded
+2019-05-03 17:13:24,475 [8] DEBUG PayPal.Api.PayPalResource [(null)] - User-Agent:PayPalSDK/PayPal-NET-SDK 1.9.1 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.17134.0)
+2019-05-03 17:13:24,476 [8] DEBUG PayPal.Api.PayPalResource [(null)] - Authorization:Basic QWFsUVJQMG5qU2NTdkNLLTN5YzhXU0hDTEowLTVxRnhabVQxaTFnQ2tVUExVaTZpODVnVkhYZGg2aWROaURNVkNWcE1wcDQ2X2l1enpzeGk6RUtSeTYwM2s3M2xnSmstcDFPNkxMUlBsbTBCUFVFWXo0VXBOVjFmMjJ6Ny1wTnluVzBmNk41WWNwZ0FLUlA3UHNrLWN3WlgwY0p6MjVoR08=
+2019-05-03 17:13:24,476 [8] DEBUG PayPal.Api.PayPalResource [(null)] - PayPal-Request-Id:e30504b9-738d-4032-afdf-6d36f0e338d3
+2019-05-03 17:13:24,791 [8] DEBUG PayPal.Api.HttpConnection [(null)] - grant_type=client_credentials
+2019-05-03 17:13:25,953 [8] DEBUG PayPal.Api.HttpConnection [(null)] - Service response: 
+2019-05-03 17:13:25,954 [8] DEBUG PayPal.Api.HttpConnection [(null)] - {"scope":"https://uri.paypal.com/services/invoicing https://uri.paypal.com/services/disputes/read-buyer https://uri.paypal.com/services/payments/realtimepayment https://uri.paypal.com/services/disputes/update-seller https://uri.paypal.com/services/payments/payment/authcapture openid https://uri.paypal.com/services/disputes/read-seller https://uri.paypal.com/services/payments/refund https://api.paypal.com/v1/vault/credit-card https://api.paypal.com/v1/payments/.* https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.* https://uri.paypal.com/services/subscriptions https://uri.paypal.com/services/applications/webhooks","access_token":"A21AAF0JsGjrLw844LATqqPggnn7oSW5vMk9Zt1dg0B4L5LHyiKm3zfg17iJ9ikEY4VbBYNfEAvMZIMF_snNLjpWpwxUc6Rbw","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":31897,"nonce":"2019-05-03T10:05:04ZnoXn0vuY2k4ZEkMZNMk3e7tDsPQFSx3fWjSONxNZtN8"}
+2019-05-03 17:13:26,150 [8] DEBUG PayPal.Api.PayPalResource [(null)] - Content-Type:application/json
+2019-05-03 17:13:26,150 [8] DEBUG PayPal.Api.PayPalResource [(null)] - User-Agent:PayPalSDK/PayPal-NET-SDK 1.9.1 (lang=DOTNET;v=4.5.1;clr=4.0.30319.42000;bit=64;os=Microsoft Windows NT 10.0.17134.0)
+2019-05-03 17:13:26,151 [8] DEBUG PayPal.Api.PayPalResource [(null)] - Authorization:Bearer A21AAF0JsGjrLw844LATqqPggnn7oSW5vMk9Zt1dg0B4L5LHyiKm3zfg17iJ9ikEY4VbBYNfEAvMZIMF_snNLjpWpwxUc6Rbw
+2019-05-03 17:13:26,151 [8] DEBUG PayPal.Api.PayPalResource [(null)] - PayPal-Request-Id:53972009-2707-4ad9-b265-c23e6562890f
+2019-05-03 17:13:26,367 [8] DEBUG PayPal.Api.HttpConnection [(null)] - {"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"currency":"USD","total":"3","details":{"subtotal":"1","shipping":"1","tax":"1"}},"description":"Transaction description","invoice_number":"your invoice number","item_list":{"items":[{"sku":"sku","name":"5","quantity":"1","price":"2","currency":"USD"}]}}],"redirect_urls":{"return_url":"http://localhost:58994/Cart/PaymentWithPaypal?guid=63574","cancel_url":"http://localhost:58994/Cart/PaymentWithPaypal?guid=63574&Cancel=true"}}
+2019-05-03 17:13:27,116 [8] ERROR PayPal.Api.HttpConnection [(null)] - Error response:
+2019-05-03 17:13:27,116 [8] ERROR PayPal.Api.HttpConnection [(null)] - {"name":"VALIDATION_ERROR","details":[{"field":"transactions[0]","issue":"Item amount must add up to specified amount subtotal (or total if amount details not specified)"}],"message":"Invalid request - see details","information_link":"https://developer.paypal.com/docs/api/payments/#errors","debug_id":"c0bf59ed51d6"}
+2019-05-03 17:13:27,116 [8] ERROR PayPal.Api.HttpConnection [(null)] - The remote server returned an error: (400) Bad Request.
+2019-05-03 17:13:27,145 [8] ERROR PayPal.PayPalException [(null)] - Payments Exception: 
+   Error:    VALIDATION_ERROR
+   Message:  Invalid request - see details
+   URI:      https://developer.paypal.com/docs/api/payments/#errors
+   Debug ID: c0bf59ed51d6
+   Details:  transactions[0] -> Item amount must add up to specified amount subtotal (or total if amount details not specified)
+

@@ -1,0 +1,148 @@
+﻿@model IEnumerable<WebApplication.Models.Order>
+@{
+    ViewBag.Title = "CheckOrders";
+    Layout = "~/Views/Shared/_ManagerLayout.cshtml";
+}
+<!-- page title area start -->
+<div class="page-title-area">
+    <div class="row align-items-center">
+        <div class="col-sm-6">
+            <div class="breadcrumbs-area clearfix">
+                <h4 class="page-title pull-left">Orders Management</h4>
+                <ul class="breadcrumbs pull-left">
+                    <li><a href="/Manager">Home</a></li>
+                    <li><span>Orders Management</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-sm-6 clearfix">
+            <div class="user-profile pull-right">
+                <img class="avatar user-thumb" src="~/Theme/assets/images/author/avatar.png" alt="avatar">
+                <h4 class="user-name dropdown-toggle" data-toggle="dropdown">Welcome: @Session["Manager"]<i class="fa fa-angle-down"></i></h4>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="@Url.Action("Logout","HomeAdmin")">Log Out</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- page title area end -->
+<br />
+@if (TempData["statusaccepted"] != null)
+{
+
+    <div class="form-group">
+
+        <br />
+        <div class="col-md-3">
+            <div class="alert alert-success" id="success-alert">
+                <button type="button" class="close" data-dismiss="alert">x</button>
+                <strong> @TempData["statusaccepted"] </strong>
+
+            </div>
+
+        </div>
+    </div>
+}
+@if (TempData["statusrejected"] != null)
+{
+
+    <div class="form-group">
+
+        <br />
+        <div class="col-md-3">
+            <div class="alert alert-success" id="success-alert">
+                <button type="button" class="close" data-dismiss="alert">x</button>
+                <strong> @TempData["statusrejected"] </strong>
+
+            </div>
+
+        </div>
+    </div>
+}
+@if (TempData["statuscompleted"] != null)
+{
+
+    <div class="form-group">
+
+        <br />
+        <div class="col-md-3">
+            <div class="alert alert-success" id="success-alert">
+                <button type="button" class="close" data-dismiss="alert">x</button>
+                <strong> @TempData["statuscompleted"] </strong>
+
+            </div>
+
+        </div>
+    </div>
+}
+
+<div class="main-content-inner">
+    <div class="row">
+        <!-- Dark table start -->
+        <div class="col-12 mt-5">
+            <div class="card">
+
+                <div class="card-body">
+                    <h4 class="header-title">Orders Management Table</h4>
+                    <div class="data-tables datatable-dark">
+                        <table id="dataTable3" class="text-center">
+                            <thead class="text-capitalize">
+                                <tr>
+                                    <th>ID</th>
+
+                                    <th>
+                                        Customer
+                                    </th>
+                                    <th>
+                                        Order Date
+                                    </th>
+                                    <th>
+                                        Status
+                                    </th>
+                                    <th>Functions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+
+                                <tr>
+
+
+                                    <td> @Html.DisplayFor(modelItem => item.Order_ID)</td>
+                                    <td> <a href="/Manager/CustomerDetails/@item.Customer_ID">@Html.DisplayFor(modelItem => item.Customer.Customer_Name)</a></td>
+                                    <td>
+                                        @item.Order_Date.ToString("dd/MM/yyyy HH:mm:ss")
+                                    </td>
+                                    @if (item.Status == "Pending")
+                                    {
+                                        <td>
+                                            <span class="status-p bg-warning">@item.Status</span>
+                                        </td>
+                                    }
+                                    @if (item.Status == "Processing")
+                                    {
+                                        <td><span class="status-p bg-primary">@item.Status</span></td>
+                                    }
+                                    <td><a href="/Manager/DetailsOrders/@item.Order_ID"><i class="fa fa-eye"></i></a></td>
+                                </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Dark table end -->
+    </div>
+</div>
+
+<script>
+    window.setTimeout(function () {
+        $(".alert").fadeTo(2500, 0).slideUp(500, function () {
+            $(this).hide();
+        });
+    }, 1000);
+</script>
+

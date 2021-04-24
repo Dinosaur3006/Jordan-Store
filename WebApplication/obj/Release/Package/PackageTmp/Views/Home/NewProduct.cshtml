@@ -1,0 +1,46 @@
+﻿@model IEnumerable<WebApplication.Models.Product>
+@{
+    ViewBag.Title = "NewProduct";
+    Layout = "~/Views/Shared/_Main.cshtml";
+}
+
+@foreach (var item in Model)
+{
+    <div class="col-md-3 product-men">
+        <div class="men-pro-item simpleCart_shelfItem">
+            <div class="men-thumb-item">
+                <img src="~/Images/@item.Product_Image" alt="" class="pro-image-front">
+                <img src="~/Images/@item.Product_Image" alt="" class="pro-image-back">
+                <div class="men-cart-pro">
+                    <div class="inner-men-cart-pro">
+                        <a href="/Product/Detail/@item.Product_ID" class="link-product-add-cart">Quick View</a>
+                    </div>
+                </div>
+                @*<span class="product-new-top">New</span>*@
+
+            </div>
+            <div class="item-info-product ">
+                <h4><a href="/Product/Detail/@item.Product_ID">@item.Product_Name</a></h4>
+                <div class="info-product-price">
+                    <span class="item_price">$@item.Product_Discount</span>
+                    @if (item.Product_Discount == item.Product_Price)
+                    {
+
+                    }
+                    else
+                    {
+                        <del>$@item.Product_Price</del>}
+                </div>
+                <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2">
+
+                    <form action="" method="post">
+                        <fieldset>
+                            <input type="submit" name="submit" value="Add to cart" class="button add-to-cart" data-id="@item.Product_ID">
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+

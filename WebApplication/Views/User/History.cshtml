@@ -1,0 +1,122 @@
+﻿@model IEnumerable<WebApplication.Models.OrderDetail>
+@{
+    ViewBag.Title = "History";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!-- Start Banner Area -->
+<section class="banner-area organic-breadcrumb">
+    <div class="container">
+        <div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
+            <div class="col-first">
+                <h1>Your Order</h1>
+                <nav class="d-flex align-items-center">
+                    <a href="/">Home<span class="lnr lnr-arrow-right"></span></a>
+                    <a href="/Cart/Index">Your Order</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Banner Area -->
+<!--================Cart Area =================-->
+
+<section class="cart_area">
+    <div class="container">
+        <div class="cart_inner">
+            <p><strong style="color:red;">- Note: </strong></p>
+            <br />
+            <p><strong style="color:orange;">Pending: </strong><span>Orders are in the process checking.</span></p>
+            <p><strong style="color:blue;">Processing: </strong><span>Orders are in the processing.</span></p>
+            <p><strong style="color:red;">Rejected: </strong><span>Orders have rejected. The money will be refunded within 3-5 business days.</span></p>
+            <p><strong style="color:green;">Completed: </strong><span>Orders have completed. </span></p>
+            <hr />
+
+            <table class="table" id="dataTable" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>
+                            Image
+                        </th>
+                        <th>
+                            Product Name
+                        </th>
+                        <th>
+                            Price
+                        </th>
+                        <th>
+                            Quantity
+                        </th>
+                        <th>
+                            Total
+                        </th>
+                        <th>
+                            Status
+                        </th>
+                        <th>
+                            Order Date
+                        </th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    @foreach (var group in Model.GroupBy(d => new { note = d.Order.Note, status = d.Order.Status, price = d.Product_Price, discount = d.Product_Discount, image = d.Product.Product_Image, name = d.Product.Product_Name, date = d.Order.Order_Date }))
+                    {
+
+                        <tr>
+                            @{ var sum = group.Key.price - ((group.Key.price * group.Key.discount) / 100);}
+                            <td>
+                                <a href="~/Images/@group.Key.image"><img src="~/Images/@group.Key.image" width="100" /></a>
+                            </td>
+                            <td>
+                                @group.Key.name
+                            </td>
+                            <td>
+                                $ @sum
+                            </td>
+                            <td>
+                                @group.Sum(x => x.Quantity)
+                            </td>
+                            <td>
+                                $ @group.Sum(x => x.Quantity * sum)
+                            </td>
+                            @if (group.Key.status == "Rejected")
+                            {
+                                <td style="color: red;">
+                                    @group.Key.status
+                                    <p style="color: black;">Reason: @group.Key.note</p>
+                                </td>
+                            }
+                            @if (group.Key.status == "Completed")
+                            {
+                                <td style="color: green;">
+                                    @group.Key.status
+
+                                </td>
+                            }
+                            @if (group.Key.status == "Pending")
+                            {
+                                <td style="color: orange;">
+                                    @group.Key.status
+
+                                </td>
+                            }
+                            @if (group.Key.status == "Processing")
+                            {
+                                <td style="color: blue;">
+                                    @group.Key.status
+
+                                </td>
+                            }
+                            <td>
+                                @group.Key.date.ToString("dd/MM/yyyy")
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+</section>
+<!--================End Cart Area =================-->
+

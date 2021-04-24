@@ -1,0 +1,50 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_SearchLayout.cshtml";
+}
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.ActionLink("სახელი", "Index", new { sortOrder = ViewBag.NameSortParm })
+        </th>
+        <th>
+            @Html.ActionLink("აღწერა", "Index", new { sortOrder = ViewBag.descSortParm })
+        </th>
+        <th>
+            @Html.ActionLink("დაწყების თარიღ", "Index", new { sortOrder = ViewBag.beginDateSortParm })
+        </th>
+        <th>
+            @Html.ActionLink("დამთავრების თარიღი", "Index", new { sortOrder = ViewBag.endDateSortParm })
+        </th>
+        <th>
+            @Html.ActionLink("ფასი", "Index", new { sortOrder = ViewBag.priceSortParm })
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DESCRIPTION)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BEGIN_DATE)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.END_DATE)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PRICE)
+            </td>
+
+        </tr>
+    }
+
+</table>
+

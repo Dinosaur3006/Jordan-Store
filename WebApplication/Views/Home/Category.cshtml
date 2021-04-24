@@ -1,0 +1,17 @@
+﻿@model IEnumerable<WebApplication.Models.Category>
+
+<!-- Collect the nav links, forms, and other content for toggling -->
+<div class="collapse navbar-collapse menu--shylock" id="bs-example-navbar-collapse-1">
+    <ul class="nav navbar-nav menu__list">
+        <li class="active menu__item menu__item--current"><a class="menu__link" href="/Home/Index">Home <span class="sr-only">(current)</span></a></li>
+   
+@foreach (var c in Model)
+{
+    <li class=" menu__item"><a class="menu__link" href="/Product/Category?CategoryId=@c.Category_ID">@c.Category_Name</a></li>
+}
+     
+        <li class=" menu__item"><a class="menu__link" href="/Home/About">About Us</a></li>
+   
+    </ul>
+</div>
+

@@ -1,0 +1,209 @@
+﻿@model IEnumerable<WebApplication.Models.Product>
+@{
+    /**/
+
+    ViewBag.Title = "Home";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .addtocart {
+        color: red;
+    }
+</style>
+<!-- start banner Area -->
+<section class="banner-area">
+    <div class="container">
+        <div class="row fullscreen align-items-center justify-content-start">
+            <div class="col-lg-12">
+                <div class="active-banner-slider owl-carousel">
+                    <!-- single-slide -->
+                    <div class="row single-slide align-items-center d-flex">
+                        <div class="col-lg-5 col-md-6">
+                            <div class="banner-content">
+                                <h1>New Collection!</h1>
+                                <p>
+                                    PE WATCH: LUKA DONČIĆ
+                                    FOLLOW THE KICKS HE’S WEARING FOR THE 2020-2021 SEASON.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="banner-img">
+                                <img class="img-fluid" width="600" src="~/Theme/img/banner/banner-img-2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- single-slide -->
+                    <div class="row single-slide">
+                        <div class="col-lg-5">
+                            <div class="banner-content">
+                                <h1>Air Jordans <br> New Collection!</h1>
+                                <p>
+                                    PE WATCH: JAYSON TATUM
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="banner-img">
+                                <img class="img-fluid" width="600" src="~/Theme/img/banner/banner-img-1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End banner Area -->
+<!-- start features Area -->
+<section class="features-area section_gap">
+    <div class="container">
+        <div class="row features-inner">
+            <!-- single features -->
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="single-features">
+                    <div class="f-icon">
+                        <img src="~/Theme/img/features/f-icon1.png" alt="">
+                    </div>
+                    <h6>Free Delivery</h6>
+                    <p>Free Shipping on all order</p>
+                </div>
+            </div>
+            <!-- single features -->
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="single-features">
+                    <div class="f-icon">
+                        <img src="~/Theme/img/features/f-icon2.png" alt="">
+                    </div>
+                    <h6>Return Policy</h6>
+                    <p>Free Shipping on all order</p>
+                </div>
+            </div>
+            <!-- single features -->
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="single-features">
+                    <div class="f-icon">
+                        <img src="~/Theme/img/features/f-icon3.png" alt="">
+                    </div>
+                    <h6>24/7 Support</h6>
+                    <p>Free Shipping on all order</p>
+                </div>
+            </div>
+            <!-- single features -->
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="single-features">
+                    <div class="f-icon">
+                        <img src="~/Theme/img/features/f-icon4.png" alt="">
+                    </div>
+                    <h6>Secure Payment</h6>
+                    <p>Free Shipping on all order</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end features Area -->
+<!-- Start category Area -->
+<section class="category-area">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-md-12">
+                <div class="row">
+                    <div class="col-lg-8 col-md-8">
+                        <div class="single-deal">
+                            <div class="overlay"></div>
+                            <img class="img-fluid w-100" src="~/Theme/img/category/c1.png" alt="">
+                            <div class="deal-details">
+                                <h6 class="deal-title">KOFFEE DISCUTE DE LA POSITIVÉ ET DE L’AUTO-ÉDUCATION</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <div class="single-deal">
+                            <div class="overlay"></div>
+                            <img class="img-fluid w-100" src="~/Theme/img/category/c2.jpg" alt="">
+                            <div class="deal-details">
+                                <h6 class="deal-title">
+                                    GAME WORN
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="single-deal">
+                    <div class="overlay"></div>
+                    <img class="img-fluid w-100" src="~/Theme/img/category/c5.jpg" alt="">
+                    <div class="deal-details">
+                        <h6 class="deal-title">SALE OFF</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End category Area -->
+<!-- start product Area -->
+<section class="owl-carousel active-product-area section_gap">
+    <!-- single product slide -->
+    <div class="single-product-slider">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 text-center">
+                    <div class="section-title">
+                        <h1>Latest Products</h1>
+                        <p>
+                            Contribute to the Air Jordan Collection
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                @foreach (var item in Model)
+                {
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-product">
+                            <img class="img-fluid" src="~/Images/@item.Product_Image" alt="">
+                            <div class="product-details">
+                                <a href="/Product/Detail/@item.Product_ID">
+                                    <h6>
+                                        @item.Product_Name
+                                    </h6>
+                                </a>
+                                @{var total = @item.Product_Price - ((@item.Product_Price * @item.Product_Discount) / 100); }
+                                <div class="price">
+                                    <h6>$@total</h6>
+                                    @if (item.Product_Discount.ToString() == "0")
+                                    {
+
+                                    }
+                                    else
+                                    {
+
+                                        <h6 class="l-through">$@item.Product_Price</h6>}
+                                </div>
+                                <div class="prd-bottom">
+
+                                    <a href="/Cart/OrderProduct/@item.Product_ID" class="social-info">
+                                        <span class="ti-bag"></span>
+                                        <p class="hover-text">add to cart</p>
+                                    </a>
+                                    <a href="/Product/Detail/@item.Product_ID" class="social-info">
+                                        <span class="lnr lnr-move"></span>
+                                        <p class="hover-text">view detail</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+    <!-- single product slide -->
+    <div class="single-product-slider">
+    </div>
+</section>
+<!-- end product Area -->
+

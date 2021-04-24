@@ -1,0 +1,100 @@
+﻿
+<!-- header -->
+<div class="header" id="home">
+    <div class="container">
+        <ul>
+            @{ var session = (WebApplication.Common.UserLogin)Session[WebApplication.Common.CommonConstants.USER_SESSION];
+            }
+            @if (session == null)
+            {
+                <li> <a href="/User/Login"><i class="fa fa-unlock-alt" aria-hidden="true"></i> Sign In </a></li>
+                <li> <a href="/User/Register"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Sign Up </a></li>
+                <li><i class="fa fa-phone" aria-hidden="true"></i> Call : 0934543482</li>
+                <li><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="mailto:thonghvdgcs15346@fpt.edu.vn">D-Shop</a></li>
+            }
+            else
+            {
+                <li> <a href=""><i class="fa fa-unlock-alt" aria-hidden="true"></i> @session.Username | @Html.ActionLink("Logout", "Logout", "User")</a></li>
+
+                <li> <a href="" data-toggle="modal" data-target="#myModal2"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Sign Up </a></li>
+                <li><i class="fa fa-phone" aria-hidden="true"></i> Call : 0934543482</li>
+                <li><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="mailto:thonghvdgcs15346@fpt.edu.vn">D-Shop</a></li>
+            }
+
+        </ul>
+    </div>
+</div>
+<!-- //header -->
+<!-- header-bot -->
+<div class="header-bot">
+    <div class="header-bot_inner_wthreeinfo_header_mid">
+        @Html.Partial("_Search")
+        <!-- header-bot -->
+        <div class="col-md-4 logo_agile">
+            <h1><a href="index.html"><span>D</span>Shop</a></h1>
+        </div>
+        <!-- header-bot -->
+        <div class="col-md-4 agileits-social top_content">
+            <ul class="social-nav model-3d-0 footer-social w3_agile_social">
+                <li class="share">Share On : </li>
+                <li>
+                    <a href="#" class="facebook">
+                        <div class="front"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+                        <div class="back"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/Home/Construction" class="twitter">
+                        <div class="front"><i class="fa fa-google-plus" aria-hidden="true"></i></div>
+                        <div class="back"><i class="fa fa-google-plus" aria-hidden="true"></i></div>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<!-- //header-bot -->
+<!-- banner -->
+<div class="ban-top">
+    <div class="container">
+        <div class="top_nav_left">
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    @Html.Action("Category", "Home")
+                </div>
+            </nav>
+        </div>
+        <div class="top_nav_right">
+
+            <div class="wthreecartaits wthreecartaits2 cart cart box_1">
+                <form action="#" method="post" class="last">
+
+                    <button class="w3view-cart" type="button" name="submit" value="" onclick="location.href='@Url.Action("Index", "Cart")'"><i class="fa fa-cart-arrow-down my-cart-btn my-cart-badge my-cart-icon" aria-hidden="true"></i></button>
+                </form>
+
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<!-- //banner-top -->
+<!-- Modal1 -->
+<!-- //Modal1 -->
+<!-- Modal2 -->
+<!-- //Modal2 -->
+<script>
+    $("#search").autocomplete({
+        source: "Product/Category",
+        minLength: 2
+    });</script>

@@ -1,0 +1,690 @@
+C:\Users\snowl\OneDrive\Documents\Visual Studio 2017\Projects\WebApplication\WebApplication\bin\WebApplication.dll.config
+C:\Users\snowl\OneDrive\Documents\Visual Studio 2017\Projects\WebApplication\WebApplication\bin\WebApplication.dll
+C:\Users\snowl\OneDrive\Documents\Visual Studio 2017\Projects\WebApplication\WebApplication\bin\WebApplication.pdb
+C:\Users\snowl\OneDrive\Documents\Visual Studio 2017\Projects\WebApplication\WebApplication\bin\BotDetect.dll
+C:\Users\snowl\OneDrive\Documents\Visual Studio 2017\Projects\WebApplication\WebApplication\bin\BotDetect.Web.UI.Mvc.dll
+C:\Users\snowl\OneDrive\Documents\Visual Studio 2017\Projects\WebApplication\WebApplication\bin\EntityFramework.dll
+C:\Users\snowl\OneDrive\Documents\Visual Studio 2017\Projects\WebApplication\WebApplication\bin\EntityFramework.SqlServer.dll
+C:\Users\snowl\OneDrive\Documents\Visual Studio 2017\Projects\WebApplication\WebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\snowl\OneDrive\Documents\Visual Studio 2017\Projects\WebApplication\WebApplication\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\snowl\OneDrive\Documents\Visual Studio 2017\Projects\WebApplication\WebApplication\bin\PagedList.dll
+C:\Users\snowl\OneDrive\Documents\Visual Studio 2017\Projects\WebApplication\WebApplication\bin\PagedList.Mvc.dll
+C:\Users\snowl\OneDrive\Documents\Visual Studio 2017\Projects\WebApplication\WebApplication\bin\System.Web.Helpers.dll
+C:\Users\snowl\OneDrive\Documents\Visual Studio 2017\Projects\WebApplication\WebApplication\bin\System.Web.Mvc.dll
+C:\Users\snowl\OneDrive\Documents\Visual Studio 2017\Projects\WebApplication\WebApplication\bin\System.Web.Razor.dll
+C:\Users\snowl\OneDrive\Documents\Visual Studio 2017\Projects\WebApplication\WebApplication\bin\System.Web.Webpages.Deployment.dll
+C:\Users\snowl\OneDrive\Documents\Visual Studio 2017\Projects\WebApplication\WebApplication\bin\System.Web.Webpages.dll
+C:\Users\snowl\OneDrive\Documents\Visual Studio 2017\Projects\WebApplication\WebApplication\bin\System.Web.Webpages.Razor.dll
+C:\Users\snowl\OneDrive\Documents\Visual Studio 2017\Projects\WebApplication\WebApplication\bin\EntityFramework.xml
+C:\Users\snowl\OneDrive\Documents\Visual Studio 2017\Projects\WebApplication\WebApplication\bin\EntityFramework.SqlServer.xml
+C:\Users\snowl\OneDrive\Documents\Visual Studio 2017\Projects\WebApplication\WebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\snowl\OneDrive\Documents\Visual Studio 2017\Projects\WebApplication\WebApplication\bin\PagedList.xml
+C:\Users\snowl\OneDrive\Documents\Visual Studio 2017\Projects\WebApplication\WebApplication\bin\PagedList.Mvc.xml
+C:\Users\snowl\OneDrive\Documents\Visual Studio 2017\Projects\WebApplication\WebApplication\bin\System.Web.Razor.xml
+C:\Users\snowl\OneDrive\Documents\Visual Studio 2017\Projects\WebApplication\WebApplication\bin\System.Web.Webpages.xml
+C:\Users\snowl\OneDrive\Documents\Visual Studio 2017\Projects\WebApplication\WebApplication\bin\System.Web.Webpages.Deployment.xml
+C:\Users\snowl\OneDrive\Documents\Visual Studio 2017\Projects\WebApplication\WebApplication\bin\System.Web.Webpages.Razor.xml
+C:\Users\snowl\OneDrive\Documents\Visual Studio 2017\Projects\WebApplication\WebApplication\bin\System.Web.Helpers.xml
+C:\Users\snowl\OneDrive\Documents\Visual Studio 2017\Projects\WebApplication\WebApplication\bin\System.Web.Mvc.xml
+C:\Users\snowl\OneDrive\Documents\Visual Studio 2017\Projects\WebApplication\WebApplication\obj\Debug\WebApplication.csproj.CoreCompileInputs.cache
+C:\Users\snowl\OneDrive\Documents\Visual Studio 2017\Projects\WebApplication\WebApplication\obj\Debug\WebApplication.csproj.CopyComplete
+C:\Users\snowl\OneDrive\Documents\Visual Studio 2017\Projects\WebApplication\WebApplication\obj\Debug\WebApplication.dll
+C:\Users\snowl\OneDrive\Documents\Visual Studio 2017\Projects\WebApplication\WebApplication\obj\Debug\WebApplication.pdb
+C:\Users\snowl\OneDrive\Documents\Visual Studio 2017\Projects\WebApplication\WebApplication\obj\Debug\WebApplication.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\WebApplication.dll.config
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\WebApplication.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\WebApplication.pdb
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\roslyn\csc.exe
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\roslyn\csc.exe.config
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\roslyn\csc.rsp
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\roslyn\csi.exe
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\roslyn\csi.exe.config
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\roslyn\csi.rsp
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\roslyn\System.AppContext.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\roslyn\System.Console.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\roslyn\System.IO.Compression.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\roslyn\System.Net.Http.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\roslyn\System.ValueTuple.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\roslyn\vbc.exe
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\roslyn\vbc.exe.config
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\roslyn\vbc.rsp
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\roslyn\VBCSCompiler.exe
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\BotDetect.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\BotDetect.Web.UI.Mvc.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\EntityFramework.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\EntityFramework.SqlServer.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\log4net.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\Newtonsoft.Json.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\PagedList.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\PagedList.Mvc.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\PayPal.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\System.Web.Helpers.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\System.Web.Mvc.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\System.Web.Razor.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\System.Web.WebPages.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\EntityFramework.xml
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\EntityFramework.SqlServer.xml
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\log4net.xml
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\Newtonsoft.Json.xml
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\PagedList.xml
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\PagedList.Mvc.xml
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\PayPal.xml
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\System.Web.Helpers.xml
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\System.Web.Mvc.xml
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\System.Web.Razor.xml
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\System.Web.WebPages.xml
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\obj\Debug\WebApplication.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\obj\Debug\WebApplication.csproj.CopyComplete
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\obj\Debug\WebApplication.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\obj\Debug\WebApplication.pdb
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\obj\Debug\WebApplication.csprojAssemblyReference.cache
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\EPPlus.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\EPPlus.xml
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\Microsoft.IdentityModel.Logging.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\Twilio.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\Twilio.xml
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\Twilio.AspNet.Common.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\Twilio.AspNet.Mvc.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\Common.dll
+C:\Users\Admin\Downloads\Compressed\a\WebApplication\WebApplication\bin\Common.pdb
+F:\FPT University\System\WebApplication\WebApplication\bin\WebApplication.dll.config
+F:\FPT University\System\WebApplication\WebApplication\bin\WebApplication.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\WebApplication.pdb
+F:\FPT University\System\WebApplication\WebApplication\bin\roslyn\csc.exe
+F:\FPT University\System\WebApplication\WebApplication\bin\roslyn\csc.exe.config
+F:\FPT University\System\WebApplication\WebApplication\bin\roslyn\csc.rsp
+F:\FPT University\System\WebApplication\WebApplication\bin\roslyn\csi.exe
+F:\FPT University\System\WebApplication\WebApplication\bin\roslyn\csi.exe.config
+F:\FPT University\System\WebApplication\WebApplication\bin\roslyn\csi.rsp
+F:\FPT University\System\WebApplication\WebApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\FPT University\System\WebApplication\WebApplication\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\roslyn\Microsoft.Managed.Core.targets
+F:\FPT University\System\WebApplication\WebApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\FPT University\System\WebApplication\WebApplication\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\roslyn\System.AppContext.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\roslyn\System.Collections.Immutable.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\roslyn\System.Console.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\roslyn\System.Globalization.Calendars.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\roslyn\System.IO.Compression.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\roslyn\System.IO.FileSystem.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\roslyn\System.Net.Http.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\roslyn\System.Net.Sockets.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\roslyn\System.Reflection.Metadata.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\roslyn\System.ValueTuple.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\roslyn\System.Xml.XmlDocument.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\roslyn\System.Xml.XPath.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\roslyn\vbc.exe
+F:\FPT University\System\WebApplication\WebApplication\bin\roslyn\vbc.exe.config
+F:\FPT University\System\WebApplication\WebApplication\bin\roslyn\vbc.rsp
+F:\FPT University\System\WebApplication\WebApplication\bin\roslyn\VBCSCompiler.exe
+F:\FPT University\System\WebApplication\WebApplication\bin\roslyn\VBCSCompiler.exe.config
+F:\FPT University\System\WebApplication\WebApplication\bin\BotDetect.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\BotDetect.Web.UI.Mvc.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\Common.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\EntityFramework.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\EntityFramework.SqlServer.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\EPPlus.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\log4net.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\Microsoft.IdentityModel.Logging.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\Microsoft.IdentityModel.Tokens.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\Microsoft.Web.Infrastructure.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\Newtonsoft.Json.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\PagedList.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\PagedList.Mvc.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\PayPal.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\System.IdentityModel.Tokens.Jwt.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\System.Web.Helpers.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\System.Web.Mvc.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\System.Web.Razor.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\System.Web.WebPages.Deployment.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\System.Web.WebPages.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\System.Web.WebPages.Razor.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\Twilio.AspNet.Common.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\Twilio.AspNet.Mvc.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\Twilio.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\Common.pdb
+F:\FPT University\System\WebApplication\WebApplication\bin\EntityFramework.xml
+F:\FPT University\System\WebApplication\WebApplication\bin\EntityFramework.SqlServer.xml
+F:\FPT University\System\WebApplication\WebApplication\bin\EPPlus.xml
+F:\FPT University\System\WebApplication\WebApplication\bin\log4net.xml
+F:\FPT University\System\WebApplication\WebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\FPT University\System\WebApplication\WebApplication\bin\Microsoft.IdentityModel.Tokens.xml
+F:\FPT University\System\WebApplication\WebApplication\bin\Newtonsoft.Json.xml
+F:\FPT University\System\WebApplication\WebApplication\bin\PagedList.xml
+F:\FPT University\System\WebApplication\WebApplication\bin\PagedList.Mvc.xml
+F:\FPT University\System\WebApplication\WebApplication\bin\PayPal.xml
+F:\FPT University\System\WebApplication\WebApplication\bin\System.IdentityModel.Tokens.Jwt.xml
+F:\FPT University\System\WebApplication\WebApplication\bin\System.Web.Helpers.xml
+F:\FPT University\System\WebApplication\WebApplication\bin\System.Web.Mvc.xml
+F:\FPT University\System\WebApplication\WebApplication\bin\System.Web.Razor.xml
+F:\FPT University\System\WebApplication\WebApplication\bin\System.Web.WebPages.xml
+F:\FPT University\System\WebApplication\WebApplication\bin\System.Web.WebPages.Deployment.xml
+F:\FPT University\System\WebApplication\WebApplication\bin\System.Web.WebPages.Razor.xml
+F:\FPT University\System\WebApplication\WebApplication\bin\Twilio.xml
+F:\FPT University\System\WebApplication\WebApplication\obj\Debug\WebApplication.csprojResolveAssemblyReference.cache
+F:\FPT University\System\WebApplication\WebApplication\obj\Debug\WebApplication.dll
+F:\FPT University\System\WebApplication\WebApplication\obj\Debug\WebApplication.pdb
+F:\FPT University\System\WebApplication\WebApplication\bin\DotNetOpenAuth.AspNet.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\DotNetOpenAuth.Core.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\DotNetOpenAuth.GoogleOAuth2.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\DotNetOpenAuth.OAuth.Consumer.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\DotNetOpenAuth.OAuth.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\DotNetOpenAuth.OpenId.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\Google.Apis.Auth.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\Google.Apis.Auth.PlatformServices.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\Google.Apis.Core.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\Google.Apis.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\Google.Apis.PlatformServices.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\Microsoft.AspNet.Identity.Core.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\Microsoft.Owin.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\Microsoft.Owin.Security.Cookies.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\Microsoft.Owin.Security.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\Microsoft.Owin.Security.Facebook.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\Microsoft.Owin.Security.Google.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\Microsoft.Owin.Security.OAuth.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\Owin.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\System.Net.Http.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\System.Net.Http.WebRequest.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\Org.Mentalis.Security.Cryptography.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\Mono.Math.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\DotNetOpenAuth.AspNet.xml
+F:\FPT University\System\WebApplication\WebApplication\bin\DotNetOpenAuth.Core.xml
+F:\FPT University\System\WebApplication\WebApplication\bin\DotNetOpenAuth.OAuth.xml
+F:\FPT University\System\WebApplication\WebApplication\bin\DotNetOpenAuth.OAuth.Consumer.xml
+F:\FPT University\System\WebApplication\WebApplication\bin\DotNetOpenAuth.OpenId.xml
+F:\FPT University\System\WebApplication\WebApplication\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+F:\FPT University\System\WebApplication\WebApplication\bin\Google.Apis.pdb
+F:\FPT University\System\WebApplication\WebApplication\bin\Google.Apis.xml
+F:\FPT University\System\WebApplication\WebApplication\bin\Google.Apis.Auth.pdb
+F:\FPT University\System\WebApplication\WebApplication\bin\Google.Apis.Auth.xml
+F:\FPT University\System\WebApplication\WebApplication\bin\Google.Apis.Core.pdb
+F:\FPT University\System\WebApplication\WebApplication\bin\Google.Apis.Core.xml
+F:\FPT University\System\WebApplication\WebApplication\bin\Microsoft.AspNet.Identity.Core.xml
+F:\FPT University\System\WebApplication\WebApplication\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\FPT University\System\WebApplication\WebApplication\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+F:\FPT University\System\WebApplication\WebApplication\bin\Microsoft.Owin.xml
+F:\FPT University\System\WebApplication\WebApplication\bin\Microsoft.Owin.Security.xml
+F:\FPT University\System\WebApplication\WebApplication\bin\Microsoft.Owin.Security.Cookies.xml
+F:\FPT University\System\WebApplication\WebApplication\bin\Microsoft.Owin.Security.Facebook.xml
+F:\FPT University\System\WebApplication\WebApplication\bin\Microsoft.Owin.Security.Google.xml
+F:\FPT University\System\WebApplication\WebApplication\bin\Microsoft.Owin.Security.OAuth.xml
+F:\FPT University\System\WebApplication\WebApplication\bin\System.Net.Http.xml
+F:\FPT University\System\WebApplication\WebApplication\bin\System.Net.Http.WebRequest.xml
+F:\FPT University\System\WebApplication\WebApplication\bin\Org.Mentalis.Security.Cryptography.xml
+F:\FPT University\System\WebApplication\WebApplication\bin\Mono.Math.xml
+F:\FPT University\System\WebApplication\WebApplication\bin\Facebook.dll
+F:\FPT University\System\WebApplication\WebApplication\bin\Facebook.xml
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\WebApplication.dll.config
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\WebApplication.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\WebApplication.pdb
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\roslyn\csc.exe
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\roslyn\csc.exe.config
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\roslyn\csc.rsp
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\roslyn\csi.exe
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\roslyn\csi.exe.config
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\roslyn\csi.rsp
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\roslyn\System.AppContext.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\roslyn\System.Console.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\roslyn\System.IO.Compression.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\roslyn\System.Net.Http.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\roslyn\System.ValueTuple.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\roslyn\vbc.exe
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\roslyn\vbc.exe.config
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\roslyn\vbc.rsp
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\roslyn\VBCSCompiler.exe
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\BotDetect.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\BotDetect.Web.UI.Mvc.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Common.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\DotNetOpenAuth.Core.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\DotNetOpenAuth.GoogleOAuth2.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\EntityFramework.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\EntityFramework.SqlServer.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\EPPlus.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Facebook.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Google.Apis.Auth.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Google.Apis.Auth.PlatformServices.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Google.Apis.Core.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Google.Apis.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Google.Apis.PlatformServices.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\log4net.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Microsoft.IdentityModel.Logging.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Microsoft.Owin.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Microsoft.Owin.Security.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Newtonsoft.Json.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Owin.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\PagedList.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\PagedList.Mvc.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\PayPal.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\System.Web.Helpers.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\System.Web.Mvc.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\System.Web.Razor.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\System.Web.WebPages.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Twilio.AspNet.Common.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Twilio.AspNet.Mvc.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Twilio.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Org.Mentalis.Security.Cryptography.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Mono.Math.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Common.pdb
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\DotNetOpenAuth.Core.xml
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\EntityFramework.xml
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\EntityFramework.SqlServer.xml
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\EPPlus.xml
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Facebook.xml
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Google.Apis.pdb
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Google.Apis.xml
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Google.Apis.Auth.pdb
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Google.Apis.Auth.xml
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Google.Apis.Core.pdb
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Google.Apis.Core.xml
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\log4net.xml
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Microsoft.Owin.xml
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Microsoft.Owin.Security.xml
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Newtonsoft.Json.xml
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\PagedList.xml
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\PagedList.Mvc.xml
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\PayPal.xml
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\System.Web.Helpers.xml
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\System.Web.Mvc.xml
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\System.Web.Razor.xml
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\System.Web.WebPages.xml
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Twilio.xml
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Org.Mentalis.Security.Cryptography.xml
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Mono.Math.xml
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\obj\Debug\WebApplication.csprojAssemblyReference.cache
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\obj\Debug\WebApplication.csproj.CopyComplete
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\obj\Debug\WebApplication.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\obj\Debug\WebApplication.pdb
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\obj\Debug\WebApplication.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\jose-jwt.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Microsoft.Extensions.Configuration.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Microsoft.Extensions.Logging.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Microsoft.Win32.Primitives.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Nexmo.Api.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\System.AppContext.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\System.Collections.Immutable.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\System.ComponentModel.Annotations.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\System.Console.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\System.Globalization.Calendars.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\System.IO.Compression.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\System.IO.Compression.ZipFile.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\System.IO.FileSystem.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\System.Net.Http.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\System.Net.Sockets.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\System.Xml.ReaderWriter.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Vonage.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Microsoft.Extensions.Configuration.xml
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Microsoft.Extensions.Configuration.FileExtensions.xml
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Microsoft.Extensions.Configuration.Json.xml
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Microsoft.Extensions.FileProviders.Physical.xml
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Microsoft.Extensions.FileSystemGlobbing.xml
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Microsoft.Extensions.Logging.xml
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Nexmo.Api.xml
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\System.Collections.Immutable.xml
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\Vonage.xml
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\RestSharp.dll
+C:\Users\Admin\Downloads\Compressed\WebApplication\WebApplication\bin\RestSharp.xml
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\WebApplication.dll.config
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\WebApplication.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\WebApplication.pdb
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\roslyn\csc.exe
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\roslyn\csc.exe.config
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\roslyn\csc.rsp
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\roslyn\csi.exe
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\roslyn\csi.exe.config
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\roslyn\csi.rsp
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\roslyn\System.AppContext.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\roslyn\System.Console.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\roslyn\System.IO.Compression.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\roslyn\System.Net.Http.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\roslyn\System.Net.Sockets.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\roslyn\System.ValueTuple.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\roslyn\System.Xml.XPath.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\roslyn\vbc.exe
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\roslyn\vbc.exe.config
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\roslyn\vbc.rsp
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\roslyn\VBCSCompiler.exe
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\BotDetect.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\BotDetect.Web.UI.Mvc.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Common.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\DotNetOpenAuth.Core.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\DotNetOpenAuth.GoogleOAuth2.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\EntityFramework.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\EntityFramework.SqlServer.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\EPPlus.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Facebook.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Google.Apis.Auth.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Google.Apis.Auth.PlatformServices.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Google.Apis.Core.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Google.Apis.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Google.Apis.PlatformServices.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\jose-jwt.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\log4net.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Microsoft.Extensions.Configuration.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Microsoft.Extensions.Logging.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Microsoft.IdentityModel.Logging.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Microsoft.Owin.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Microsoft.Owin.Security.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Microsoft.Win32.Primitives.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Newtonsoft.Json.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Nexmo.Api.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Owin.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\PagedList.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\PagedList.Mvc.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\PayPal.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\RestSharp.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\System.AppContext.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\System.Collections.Immutable.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\System.ComponentModel.Annotations.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\System.Console.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\System.Globalization.Calendars.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\System.IO.Compression.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\System.IO.Compression.ZipFile.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\System.IO.FileSystem.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\System.Net.Http.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\System.Net.Sockets.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\System.Web.Helpers.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\System.Web.Mvc.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\System.Web.Razor.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\System.Web.WebPages.Deployment.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\System.Web.WebPages.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\System.Web.WebPages.Razor.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\System.Xml.ReaderWriter.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Twilio.AspNet.Common.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Twilio.AspNet.Mvc.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Twilio.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Vonage.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Org.Mentalis.Security.Cryptography.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Mono.Math.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Common.pdb
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\DotNetOpenAuth.Core.xml
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\EntityFramework.xml
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\EntityFramework.SqlServer.xml
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\EPPlus.xml
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Facebook.xml
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Google.Apis.pdb
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Google.Apis.xml
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Google.Apis.Auth.pdb
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Google.Apis.Auth.xml
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Google.Apis.Core.pdb
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Google.Apis.Core.xml
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\log4net.xml
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Microsoft.Extensions.Configuration.xml
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Microsoft.Extensions.Configuration.FileExtensions.xml
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Microsoft.Extensions.Configuration.Json.xml
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Microsoft.Extensions.FileProviders.Physical.xml
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Microsoft.Extensions.FileSystemGlobbing.xml
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Microsoft.Extensions.Logging.xml
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Microsoft.Owin.xml
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Microsoft.Owin.Security.xml
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Newtonsoft.Json.xml
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Nexmo.Api.xml
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\PagedList.xml
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\PagedList.Mvc.xml
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\PayPal.xml
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\RestSharp.xml
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\System.Collections.Immutable.xml
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\System.Web.Helpers.xml
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\System.Web.Mvc.xml
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\System.Web.Razor.xml
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\System.Web.WebPages.xml
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\System.Web.WebPages.Deployment.xml
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\System.Web.WebPages.Razor.xml
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Twilio.xml
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Vonage.xml
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Org.Mentalis.Security.Cryptography.xml
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\bin\Mono.Math.xml
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\obj\Debug\WebApplication.csprojAssemblyReference.cache
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\obj\Debug\WebApplication.csproj.CoreCompileInputs.cache
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\obj\Debug\WebApplication.csproj.CopyComplete
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\obj\Debug\WebApplication.dll
+C:\Users\linhn\OneDrive\Máy tính\TOP UP\1682.1 ( PROJECT 2)\Code\New folder\WebApplication\WebApplication\obj\Debug\WebApplication.pdb

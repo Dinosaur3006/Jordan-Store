@@ -1,0 +1,49 @@
+﻿@model IEnumerable<WebApplication.Models.ShoppingCart>
+@{
+    ViewBag.Title = "Payment";
+    Layout = "~/Views/Shared/_Checkout.cshtml";
+}
+
+<h2>Payment</h2>
+<table class="table table-hover">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Unit Price</th>
+        <th>Discount</th>
+        <th>Quantity</th>
+        <th>Amount</th>
+        <th></th>
+    </tr>
+    @foreach (var p in Model)
+    {
+        <tr>
+            <td>@p.Product_ID</td>
+            <td>@p.Product_Name</td>
+            <td>@Html.FormatValue(p.Product_Price, "{0:c}")</td>
+            <td>@Html.FormatValue(p.Product_Discount, "{0:p}")</td>
+            <td><input class="quantity" value="@p.Quantity" data-id="@p.Product_ID" size="3"></td>
+            <td id="@p.Product_ID">@Html.FormatValue(p.Product_Price * p.Quantity * (1 - p.Product_Discount), "{0:c}")</td>
+            <td>
+                <img class="remove-from-cart" data-id="@p.Product_ID" src="~/img/icons/Trash.png" />
+            </td>
+        </tr>
+    }
+    <tr>
+        <th colspan="5" style="text-align:right">Total:</th>
+        <th>@WebApplication.Models.ShoppingCart.Cart.Total</th>
+        <th></th>
+    </tr>
+</table>
+
+<form action="/Cart/Clear" method="post">   
+    @using (Html.BeginForm("Payment", "Cart"))
+    {
+
+        <a href="/Cart/Payment" class="btn btn-default">
+            <span class="glyphicon glyphicon-th-list"></span>
+            Checkout
+        </a>
+    }
+</form>
+

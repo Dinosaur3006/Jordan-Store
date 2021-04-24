@@ -1,0 +1,66 @@
+﻿@model IEnumerable<WebApplication.Models.Category>
+
+<!-- Collect the nav links, forms, and other content for toggling -->
+<div class="collapse navbar-collapse menu--shylock" id="bs-example-navbar-collapse-1">
+    <ul class="nav navbar-nav menu__list">
+        <li class="active menu__item menu__item--current"><a class="menu__link" href="/Home/Index">Home <span class="sr-only">(current)</span></a></li>
+        <li class=" menu__item"><a class="menu__link" href="/Home/About">About</a></li>
+        <li class="dropdown menu__item">
+            <a href="#" class="dropdown-toggle menu__link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                Protective Equipment <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu multi-column columns-3">
+                <div class="agile_inner_drop_nav_info">
+                    <div class="col-sm-6 multi-gd-img1 multi-gd-text ">
+                        <a href=""><img src="~/Styles/images/top2.jpg" alt=" " /></a>
+                    </div>
+                    @foreach (var c in Model)
+                {
+                    <div class="col-sm-3 multi-gd-img">
+                        <ul class="multi-column-dropdown">
+                            <li><a href="/Product/Category?CategoryId=@c.Category_ID">@c.Category_Name</a></li>
+
+                        </ul>
+                    </div>
+            }
+                    <div class="clearfix"></div>
+
+                </div>
+            </ul>
+        </li>
+        <li class="dropdown menu__item">
+            <a href="#" class="dropdown-toggle menu__link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Brands <span class="caret"></span></a>
+            <ul class="dropdown-menu multi-column columns-3">
+                <div class="agile_inner_drop_nav_info">
+                    <div class="col-sm-3 multi-gd-img">
+                        <ul class="multi-column-dropdown">
+                            <li><a href="">AGV</a></li>
+                            <li><a href="">DAINESE</a></li>
+                            <li><a href="">ALPINESTARS</a></li>
+                            <li><a href="">SHOEI</a></li>
+                            <li><a href="">ARAI</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3 multi-gd-img">
+                        <ul class="multi-column-dropdown">
+                            <li><a href="">SENA</a></li>
+                            <li><a href="">AKRAPOVIC</a></li>
+                            <li><a href="">BREMBO</a></li>
+                            <li><a href="">CRG</a></li>
+                            <li><a href="">SIDI</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 multi-gd-img multi-gd-text ">
+                        <a href=""><img src="~/Styles/images/top1.jpg" alt=" " /></a>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </ul>
+        </li>
+        
+        <li class=" menu__item"><a class="menu__link" href="/Home/Construction">Customer</a></li>
+        <li class=" menu__item"><a class="menu__link" href="/Home/Contact">Contact</a></li>
+    </ul>
+</div>
+

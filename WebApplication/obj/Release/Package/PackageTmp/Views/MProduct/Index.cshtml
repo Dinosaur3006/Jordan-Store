@@ -1,0 +1,60 @@
+﻿@model IEnumerable<WebApplication.Models.Product>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_MyLayout.cshtml";
+}
+
+<h2>Manage Product</h2>
+<hr />
+
+<p>
+<a href="/MProduct/Create" class="btn btn-outline btn-primary" style="font-size:20px;">Create</a>
+</p>
+<table class="table" id="dataTable" cellspacing="0">
+    <thead>
+        <tr>
+            <th>Product Name</th>
+            <th>Image</th>
+            <th>Unit Price</th>
+            <th>Category</th>
+            <th>Functions</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+    {
+
+        <tr class="odd gradeX">
+            <td>   @Html.DisplayFor(modelItem => item.Product_Name)</td>
+            <td><img src="~/Images/@Html.DisplayFor(modelItem => item.Product_Image)" width="100" /></td>
+            <td>
+                $@Html.DisplayFor(modelItem => item.Product_Price)
+              
+
+            </td>
+
+            <td class="center">@Html.DisplayFor(modelItem => item.Category.Category_Name)</td>
+
+
+
+            <td class="center">
+                <a href="/MProduct/Edit/@item.Product_ID" class="btn btn-info">
+                    Edit
+                </a>
+                <a href="/MProduct/Details/@item.Product_ID" class="btn btn-info">
+                    Detail
+                </a>
+                <a href="/MProduct/Delete/@item.Product_ID" class="btn btn-info">
+                    Delete
+                </a>
+               
+            </td>
+
+        </tr>
+
+}
+    </tbody>
+    </table>
+

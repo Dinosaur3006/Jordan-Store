@@ -1,0 +1,82 @@
+﻿@model WebApplication.Models.Administrator
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="page-title-area">
+    <div class="row align-items-center">
+        <div class="col-sm-6">
+            <div class="breadcrumbs-area clearfix">
+                <h4 class="page-title pull-left">Detail</h4>
+                <ul class="breadcrumbs pull-left">
+                    <li><a href="/HomeAdmin">Home</a></li>
+                    <li><a href="/MManager/Index">Account Management</a></li>
+                    <li><span>Detail</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-sm-6 clearfix">
+            <div class="user-profile pull-right">
+                <img class="avatar user-thumb" src="~/Theme/assets/images/author/avatar.png" alt="avatar">
+                <h4 class="user-name dropdown-toggle" data-toggle="dropdown">Welcome: @Session["Admin"]<i class="fa fa-angle-down"></i></h4>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="@Url.Action("Logout","HomeAdmin")">Log Out</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- page title area end -->
+<div class="main-content-inner">
+    <div class="col-12 mt-5">
+        <div class="card">
+            <div class="card-body">
+                <br />
+
+                <dl class="dl-horizontal">
+                    <dt>
+                        @Html.DisplayNameFor(model => model.Username): &nbsp;<span style="font-weight:normal"> @Html.DisplayFor(model => model.Username)</span>
+                    </dt>
+
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.FullName): &nbsp;<span style="font-weight:normal"> @Html.DisplayFor(model => model.FullName)</span>
+                    </dt>
+
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.Role): &nbsp;<span style="font-weight:normal">  @Html.DisplayFor(model => model.Role)</span>
+                    </dt>
+
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.Email): &nbsp;<span style="font-weight:normal">             @Html.DisplayFor(model => model.Email)</span>
+                    </dt>
+
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.Phone): &nbsp;<span style="font-weight:normal">
+                            @Html.DisplayFor(model => model.Phone)
+                        </span>
+                    </dt>
+
+
+
+                </dl>
+                @using (Html.BeginForm())
+                {
+                    @Html.AntiForgeryToken()
+
+            <div class="form-actions no-color">
+                <a href="/MManager/Edit/@Model.Account_ID" class="btn btn-primary  mt-4 pr-4 pl-4">Edit</a>
+                <a href="/MManager" class="btn btn-info mt-4 pr-4 pl-4">
+                    Back to List
+                </a>
+            </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

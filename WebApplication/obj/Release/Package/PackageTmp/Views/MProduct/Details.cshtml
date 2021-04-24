@@ -1,0 +1,65 @@
+﻿@model WebApplication.Models.Product
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_MyLayout.cshtml";
+}
+
+<h2>Product Details</h2>
+
+<div>
+
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Image
+            @*@Html.DisplayNameFor(model => model.Product_Image)*@
+        </dt>
+        <dd>
+            <img src="~/Images/@Html.DisplayFor(modelItem => Model.Product_Image)" width="200" />
+        </dd>
+        <br />
+        <dt>
+            @Html.LabelFor(model => model.Product_Name, "Product Name"): &nbsp;<span style="font-weight:normal">@Html.DisplayFor(model => model.Product_Name)</span>
+
+        </dt>
+
+        <dt>
+            @Html.LabelFor(model => model.Product_Price, "Price"): &nbsp;<span style="font-weight:normal">$@Html.DisplayFor(model => model.Product_Price)</span>
+        </dt>
+
+        <dt>
+            @Html.LabelFor(model => model.Product_Date, "Date"): &nbsp;<span style="font-weight:normal"> @Html.DisplayFor(model => model.Product_Date)</span>
+        </dt>
+
+        <dt>
+            @Html.LabelFor(model => model.Product_Description, "Description"): &nbsp;<span style="font-weight:normal">@Html.DisplayFor(model => model.Product_Description)</span>
+        </dt>
+      
+        <dt>
+           
+            @Html.LabelFor(model => model.Product_Discount, "Discount"): &nbsp;<span style="font-weight:normal">@Html.FormatValue(Model.Product_Discount, "{0:p}")</span>
+        </dt>
+
+        <dt>
+            @Html.LabelFor(model => model.Category.Category_Name, "Category"): &nbsp;<span style="font-weight:normal">@Html.DisplayFor(model => model.Category.Category_Name)</span>
+        </dt>
+
+        <dt>
+            @Html.LabelFor(model => model.Supply.Supply_Name, "Supply"): &nbsp;<span style="font-weight:normal">@Html.DisplayFor(model => model.Supply.Supply_Name)</span>
+        </dt>
+    </dl>
+
+
+    <p>
+        <a href="/MProduct/Edit/@Model.Product_ID" class="btn btn-info">
+            Edit
+        </a>
+        &nbsp;
+        <a href="/MProduct" class="btn btn-info">
+            Back to List
+        </a>
+
+
+    </p>
+</div>

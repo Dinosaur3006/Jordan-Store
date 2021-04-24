@@ -1,0 +1,72 @@
+﻿@model IEnumerable<WebApplication.Models.Product>
+@{
+    ViewBag.Title = "Search";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Start Banner Area -->
+<section class="banner-area organic-breadcrumb">
+    <div class="container">
+        <div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
+            <div class="col-first">
+                <h1>Search</h1>
+                <nav class="d-flex align-items-center">
+                    <a href="/">Home<span class="lnr lnr-arrow-right"></span></a>
+                    <a href="#">Search</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Banner Area -->
+<section class="cart_area">
+    <div class="container">
+        <div class="cart_inner">
+            <div class="table-responsive">
+
+                <div class="row">
+                    @foreach (var item in Model)
+                    {
+                        <div class="col-lg-3 col-md-6">
+                            <div class="single-product">
+                                <img class="img-fluid" src="~/Images/@item.Product_Image" alt="">
+                                <div class="product-details">
+                                    <a href="/Product/Detail/@item.Product_ID">
+                                        <h6>
+                                            @item.Product_Name
+                                        </h6>
+                                    </a>
+                                    @{var total = @item.Product_Price - ((@item.Product_Price * @item.Product_Discount) / 100); }
+                                    <div class="price">
+                                        <h6>$@total</h6>
+                                        @if (item.Product_Discount.ToString() == "0")
+                                        {
+
+                                        }
+                                        else
+                                        {
+
+                                            <h6 class="l-through">$@item.Product_Price</h6>}
+                                    </div>
+                                    <div class="prd-bottom">
+
+                                        <a href="/Cart/OrderProduct/@item.Product_ID" class="social-info">
+                                            <span class="ti-bag"></span>
+                                            <p class="hover-text">add to cart</p>
+                                        </a>
+                                        <a href="/Product/Detail/@item.Product_ID" class="social-info">
+                                            <span class="lnr lnr-move"></span>
+                                            <p class="hover-text">view detail</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+            </div>
+    </div>
+</section>
+<div class="clearfix"> </div>
+

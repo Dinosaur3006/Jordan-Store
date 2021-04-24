@@ -1,0 +1,56 @@
+﻿
+@{
+    ViewBag.Title = "Forgot";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Start Banner Area -->
+<section class="banner-area organic-breadcrumb">
+    <div class="container">
+        <div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
+            <div class="col-first">
+                <h1>Edit Profile</h1>
+                <nav class="d-flex align-items-center">
+                    <a href="/">Home<span class="lnr lnr-arrow-right"></span></a>
+                    <a href="">Edit Profile</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Banner Area -->
+<section>
+    @using (Html.BeginForm())
+    {
+
+        <div class="container">
+            <div class="form-horizontal">
+
+                <div class="modal-body modal-body-sub_agile">
+                    <div class="col-md-8 modal_body_left modal_body_left1">
+                        @if (ViewBag.wrongusername != null)
+                        {
+                            <div class="alert alert-danger">@ViewBag.wrongusername</div>
+                        }
+                        @if (TempData["Wrongpass"] != null)
+                        {
+                            <div class="alert alert-danger">@TempData["Wrongpass"]</div>
+                        }
+
+                        <div class="form-group">
+                            <div class="col-md-6">
+                                <input class="form-control text-box single-line" type="text" name="username" min="0" max="9999" placeholder="Enter your username" required="" />
+                            </div>
+                        </div>
+                        <div>
+                            <input type="submit" value="Reset Password" style="color: #fff; background-color: #007bff; border-color: #007bff;" class="gray_btn btn btn-default" />
+                            <a class="gray_btn" style="color: #fff; background-color: #dc3545; border-color: #dc3545;" href="/">
+                                Back
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+    </section>

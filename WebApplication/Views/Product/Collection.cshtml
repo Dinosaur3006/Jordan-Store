@@ -1,0 +1,100 @@
+﻿@model PagedList.IPagedList<WebApplication.Models.Product>
+@using PagedList.Mvc;
+@{
+    ViewBag.Title = "Collection";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<!-- Start Banner Area -->
+<section class="banner-area organic-breadcrumb">
+    <div class="container">
+        <div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
+            <div class="col-first">
+                <h1>Collection</h1>
+                <nav class="d-flex align-items-center">
+                    <a href="/">Home<span class="lnr lnr-arrow-right"></span></a>
+                    <a href="/Product/Collection">Collection</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Banner Area -->
+<div class="container" style="margin-top:40px;">
+    <div class="row">
+        <div class="col-xl-12 col-lg-12 col-md-12">
+            <!-- Start Filter Bar -->
+            <div class="filter-bar d-flex flex-wrap align-items-center">
+                <div class="sorting">
+                    <ul class="tree-list-pad">
+                        <li>
+                            <a href="@Url.Action("Category","Product", new {CategoryId = Request.QueryString["CategoryID"], sort = "h->l"})"> <label id="item-0" for="item-0-0" style="font-size:14px"><i class="fa fa-sort-amount-desc" style="color:red" aria-hidden="true"></i> Price(High->Low)</label></a>
+                            <a href="@Url.Action("Category","Product", new {CategoryId = Request.QueryString["CategoryID"], sort = "l->h"})"> <label id="item-0" for="item-0-0" style="font-size:14px"><i class="fa fa-sort-amount-asc" style="color:red" aria-hidden="true"></i> Price(Low->High)</label></a>
+                        </li>
+                    </ul>
+                    <select>
+                        <option value="1">Default sorting</option>
+                        <option value="1"> <a href="@Url.Action("Category","Product", new {CategoryId = Request.QueryString["CategoryID"], sort = "h->l"})"> <label id="item-0" for="item-0-0" style="font-size:14px"><i class="fa fa-sort-amount-desc" style="color:red" aria-hidden="true"></i> Price(High->Low)</label></a></option>
+                        <option value="1"> <a href="@Url.Action("Category","Product", new {CategoryId = Request.QueryString["CategoryID"], sort = "l->h"})"> <label id="item-0" for="item-0-0" style="font-size:14px"><i class="fa fa-sort-amount-asc" style="color:red" aria-hidden="true"></i> Price(Low->High)</label></a></option>
+                    </select>
+                </div>
+                <div class="pagination">
+                    <div style=" float: right;
+    width: 20%;
+    text-align: left;">
+                        @Html.PagedListPager(Model, page => Url.Action("Category", "Product", new { CategoryId = Request.QueryString["CategoryID"], sort = Request.QueryString["sort"], page }))
+                    </div>
+                </div>
+            </div>
+            <!-- End Filter Bar -->
+            <!-- Start Best Seller -->
+            <section class="lattest-product-area pb-40 category-list">
+                <div class="row">
+                    @foreach (var Model in Model)
+                    {
+                        <div class="col-lg-4 col-md-6">
+                            <div class="single-product">
+                                <img class="img-fluid" src="~/Images/@Model.Product_Image" alt="">
+                                <div class="product-details">
+                                    <a href="/Product/Detail/@Model.Product_ID">
+                                        <h6>
+                                            @Model.Product_Name
+                                        </h6>
+                                    </a>
+                                    @{var total = Model.Product_Price - ((Model.Product_Price * Model.Product_Discount) / 100); }
+                                    <div class="price">
+                                        <h6>$@total</h6>
+                                        @if (Model.Product_Discount.ToString() == "0")
+                                        {
+
+                                        }
+                                        else
+                                        {
+
+                                            <h6 class="l-through">$@Model.Product_Price</h6>}
+                                    </div>
+                                    <div class="prd-bottom">
+
+                                        <a href="/Cart/OrderProduct/@Model.Product_ID" class="social-info">
+                                            <span class="ti-bag"></span>
+                                            <p class="hover-text">add to cart</p>
+                                        </a>
+                                        <a href="/Product/Detail/@Model.Product_ID" class="social-info">
+                                            <span class="lnr lnr-move"></span>
+                                            <p class="hover-text">view detail</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </section>
+            <!-- End Best Seller -->
+
+        </div>
+    </div>
+</div>
+
+

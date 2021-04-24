@@ -1,0 +1,37 @@
+﻿
+@{
+    ViewBag.Title = "Test";
+    Layout = "~/Views/Shared/_SearchLayout.cshtml";
+}
+<div class="tab-content">
+    <div id="filters">
+        <p>
+            <a class="sortByRating" href="#">Sort by Rating</a>
+            <br>
+            <a class="sortByPrice" href="#">Sort by Price</a>
+        </p>
+    </div>
+
+
+    <div id="div_hotel_results" class="tab-pane active">
+        <form id="hotel-form">
+            ...
+        </form>
+        <div class="results">
+            <div class="results-row">
+                <h5>Riders Lodge</h5>
+                <span class="label label-info price">$103.64</span>
+                <span class="rating" data-rating="3.0">3.0</span>
+            </div>
+
+            <div class="results-row">
+                <h5>Olina Lodge</h5>
+                <span class="label label-info price">$99.64</span>
+                <span class="rating" data-rating="2.5">2.5</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+

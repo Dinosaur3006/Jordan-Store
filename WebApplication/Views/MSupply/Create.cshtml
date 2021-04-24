@@ -1,0 +1,74 @@
+﻿@model WebApplication.Models.Supply
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<!-- page title area start -->
+<div class="page-title-area">
+    <div class="row align-items-center">
+        <div class="col-sm-6">
+            <div class="breadcrumbs-area clearfix">
+                <h4 class="page-title pull-left">Create</h4>
+                <ul class="breadcrumbs pull-left">
+                    <li><a href="/HomeAdmin">Home</a></li>
+                    <li><a href="/MCategory/Index">Supply Management</a></li>
+                    <li><span>Create</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-sm-6 clearfix">
+            <div class="user-profile pull-right">
+                <img class="avatar user-thumb" src="~/Theme/assets/images/author/avatar.png" alt="avatar">
+                <h4 class="user-name dropdown-toggle" data-toggle="dropdown">Welcome: @Session["Admin"]<i class="fa fa-angle-down"></i></h4>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="@Url.Action("Logout","HomeAdmin")">Log Out</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- page title area end -->
+<div class="main-content-inner">
+    <div class="col-12 mt-5">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="header-title">Create A New Supply Form</h4>
+
+                @using (Html.BeginForm("Create", "MSupply", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                {
+                    @Html.AntiForgeryToken()
+
+            <div class="form-horizontal">
+
+                <hr />
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                @Html.HiddenFor(model => model.Supply_ID, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Supply_ID, "", new { @class = "text-danger" })
+
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Supply_Name, "Supply Name", htmlAttributes: new { @class = "control-label col-md-2" })
+                    @Html.EditorFor(model => model.Supply_Name, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Supply_Name, "", new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Supply_Address, "Supply Address", htmlAttributes: new { @class = "control-label col-md-2" })
+                        @Html.EditorFor(model => model.Supply_Address, new { htmlAttributes = new { @class = "form-control", required = "required" } })
+                        @Html.ValidationMessageFor(model => model.Supply_Address, "", new { @class = "text-danger" })
+                </div>
+
+                <div>
+                    <button type="submit" class="btn btn-primary mt-4 pr-4 pl-4">Create</button> &nbsp;
+                    <a href="/MSupply" class="btn btn-info mt-4 pr-4 pl-4">
+                        Back to List
+                    </a>
+                </div>
+            </div>
+                }
+
+            </div>
+        </div>
+    </div>
+</div>

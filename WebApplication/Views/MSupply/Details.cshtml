@@ -1,0 +1,31 @@
+﻿@model WebApplication.Models.Supply
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_MyLayout.cshtml";
+}
+
+<h2>Supply Details</h2>
+
+<div>
+ 
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.LabelFor(model => model.Supply_Name, "Supply Name"): &nbsp;<span style="font-weight:normal">@Html.DisplayFor(model => model.Supply_Name)</span>
+        </dt>
+        <dt>
+            @Html.LabelFor(model => model.Supply_Address, "Supply Address"): &nbsp;<span style="font-weight:normal">@Html.DisplayFor(model => model.Supply_Address)</span>
+        </dt>
+
+    </dl>
+</div>
+<p>
+    <a href="/MSupply/Edit/@Model.Supply_ID" class="btn btn-info">
+        Edit
+    </a>
+    &nbsp;
+    <a href="/MSupply" class="btn btn-info">
+        Back to List
+    </a>
+</p>

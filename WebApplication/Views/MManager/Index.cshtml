@@ -1,0 +1,134 @@
+﻿@model IEnumerable<WebApplication.Models.Administrator>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+@if (TempData["EditManager"] != null)
+{
+    <div class="form-group">
+        <br />
+        <div class="col-md-3">
+            <div class="alert alert-success" id="success-alert">
+                <button type="button" class="close" data-dismiss="alert">x</button>
+                <strong> @TempData["EditManager"] </strong>
+
+            </div>
+
+        </div>
+    </div>
+}
+@if (TempData["DeleteManager"] != null)
+{
+
+    <div class="form-group">
+        <br />
+        <div class="col-md-3">
+            <div class="alert alert-success" id="success-alert">
+                <button type="button" class="close" data-dismiss="alert">x</button>
+                <strong> @TempData["DeleteManager"] </strong>
+
+            </div>
+
+        </div>
+    </div>
+}
+@if (TempData["ErrorDeleteManager"] != null)
+{
+
+    <div class="form-group">
+        <br />
+        <div class="col-md-3">
+            <div class="alert alert-danger" id="success-alert">
+                <button type="button" class="close" data-dismiss="alert">x</button>
+                <strong> @TempData["ErrorDeleteManager"] </strong>
+
+            </div>
+
+        </div>
+    </div>
+}
+<!-- page title area start -->
+<div class="page-title-area">
+    <div class="row align-items-center">
+        <div class="col-sm-6">
+            <div class="breadcrumbs-area clearfix">
+                <h4 class="page-title pull-left">Account Manager Management</h4>
+                <ul class="breadcrumbs pull-left">
+                    <li><a href="/HomeAdmin">Home</a></li>
+                    <li><span>Account Manager Management</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-sm-6 clearfix">
+            <div class="user-profile pull-right">
+                <img class="avatar user-thumb" src="~/Theme/assets/images/author/avatar.png" alt="avatar">
+                <h4 class="user-name dropdown-toggle" data-toggle="dropdown">Welcome: @Session["Admin"]<i class="fa fa-angle-down"></i></h4>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="@Url.Action("Logout","HomeAdmin")">Log Out</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- page title area end -->
+<div class="main-content-inner">
+    <div class="row">
+        <!-- Dark table start -->
+        <div class="col-12 mt-5">
+            <div class="card">
+
+                <div class="card-body">
+
+                    <a href="/MManager/Register" class="btn btn-outline btn-primary " style="font-size:20px; width:10%; margin-bottom:20px">Create</a>
+                    <h4 class="header-title">Account Manager Table</h4>
+                    <div class="data-tables datatable-dark">
+                        <table id="dataTable3" class="text-center">
+                            <thead class="text-capitalize">
+                                <tr>
+                                    <th>Account_ID</th>
+                                    <th>Username</th>
+                                    <th>FullName</th>
+                                    <th>Role</th>
+                                    <th>Functions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    if (item.Role == "Manager")
+                                    {
+                                        <tr class="odd gradeX">
+                                            <td>   @Html.DisplayFor(modelItem => item.Account_ID)</td>
+                                            <td>   @Html.DisplayFor(modelItem => item.Username)</td>
+                                            <td>   @Html.DisplayFor(modelItem => item.FullName)</td>
+                                            <td>   @Html.DisplayFor(modelItem => item.Role)</td>
+
+
+
+                                            <td class="center">
+                                                <ul class="d-flex justify-content-center">
+                                                    <li class="mr-3"><a href="/MManager/Edit/@item.Account_ID" class="text-secondary"><i class="fa fa-edit"></i></a></li>
+                                                    <li class="mr-3"><a href="/MManager/Details/@item.Account_ID" class="text-secondary"><i class="fa fa-eye"></i></a></li>
+                                                    <li><a href="/MManager/Delete/@item.Account_ID" class="text-danger"><i class="ti-trash"></i></a></li>
+                                                </ul>
+                                            </td>
+
+                                        </tr>
+                                    }
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Dark table end -->
+    </div>
+</div>
+<script>
+    window.setTimeout(function () {
+        $(".alert").fadeTo(2500, 0).slideUp(500, function () {
+            $(this).hide();
+        });
+    }, 1000);
+</script>
